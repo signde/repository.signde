@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- BINGIE -->
-<addon id="skin.bingie" version="37.2.0.2" name="Bingie (avdvplus/p3i)" provider-name="matke, signde">
+<addon id="skin.bingie" version="39.2.0.2" name="Bingie (avdvplus/p3i)" provider-name="matke, signde">
 	<requires>
 		<import version="5.17.0" addon="xbmc.gui"/>
 		<import addon="script.bingie.helper" version="1.1.2"/>
@@ -10,6 +10,7 @@
 		<import addon="resource.images.studios.coloured" version="1.0.0" />
 		<import addon="plugin.video.tmdb.bingie.helper" version="2.1.0.3" />
 		<import addon="plugin.program.autocompletion" version="2.1.3" />
+		<import addon="script.signde.tinyppi" version="10.2.7.3" />
 	</requires>
 	<extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
         <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
@@ -30,6 +31,7 @@
 		<forum></forum>
 		<source></source>
 		<news>
+			[I][COLOR FFFF9800]v39.2.0.2[/COLOR][/I][CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags[CR][CR]
 			[I][COLOR FFFF9800]v37.2.0.2[/COLOR][/I][CR]- Added back missing VS10 and PPI assets[CR][CR]
 			[I][COLOR FFFF9800]v36.2.0.2[/COLOR][/I][CR]- Fixed Dolby Vision L5 active-area offsets in Player Process Info[CR][CR]
 			[I][COLOR FFFF9800]v35.2.0.2[/COLOR][/I][CR]- Fixes for Trakt compatibility[CR][CR]

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.aeon.nox.silvo" version="65.10.0.4" name="Aeon Nox: SiLVO (avdvplus/p3i)" provider-name="SiLVO, jamal2362, signde">
+<addon id="skin.aeon.nox.silvo" version="68.10.0.4" name="Aeon Nox: SiLVO (avdvplus/p3i)" provider-name="SiLVO, jamal2362, signde">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
 		<import addon="script.skinshortcuts" version="2.0.1" />
 		<import addon="script.skinvariables" version="2.1.30" />
 		<import addon="resource.images.studios.white" version="0.0.1" />
 		<import addon="resource.images.recordlabels.white" version="0.0.1" />
+		<import addon="script.signde.tinyppi" version="10.2.7.3" />
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
@@ -101,6 +102,8 @@
 			<screenshot>resources/screenshots/screenshot-12.jpg</screenshot>
 		</assets>
 		<news>
+			[I][COLOR FFFF9800]v68.10.0.4[/COLOR][/I][CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags[CR]- Fixed background video display on the Home screen
+
 			[I][COLOR FFFF9800]v65.10.0.4[/COLOR][/I][CR]- Added an option to hide audio channel-layout artwork
 
 			[I][COLOR FFFF9800]v64.10.0.4[/COLOR][/I][CR]- Improved Atmos and DTS:X detection in library views and OSD information

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.arctic.zephyr.mod" version="63.3.0.3" name="Arctic: Zephyr - Reloaded (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, jamal2362">
+<addon id="skin.arctic.zephyr.mod" version="65.3.0.3" name="Arctic: Zephyr - Reloaded (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, jamal2362">
     <requires>
         <import addon="xbmc.gui" version="5.17.0"/>
         <import addon="script.skinshortcuts" version="0.4.0"/>
@@ -9,6 +9,7 @@
         <import addon="script.embuary.info" version="0.0.1"/>
         <import addon="script.embuary.helper" version="1.2.14"/>
         <import addon="plugin.video.themoviedb.helper" version="6.16.0"/>
+        <import addon="script.signde.tinyppi" version="10.2.7.3"/>
     </requires>
     <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1">
         <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
@@ -33,6 +34,7 @@
             <screenshot>resources/screenshot-10.jpg</screenshot>
         </assets>
         <news>
+            [I][COLOR FFFF9800]v65.3.0.3[/COLOR][/I][CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags[CR][CR]
             [I][COLOR FFFF9800]v63.3.0.3[/COLOR][/I][CR]- Fixed Dolby Vision L5 active-area offsets in Player Process Info[CR][CR]
             [I][COLOR FFFF9800]v62.3.0.3[/COLOR][/I][CR]- Fixes for Trakt compatibility[CR][CR]
             3.0.3[CR]- Fixed issue with TV show indicators[CR][CR]

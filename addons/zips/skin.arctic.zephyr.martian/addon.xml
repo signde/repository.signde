@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.arctic.zephyr.martian" version="10.3.19.13" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0"/>
+        <import addon="script.skinvariables" version="2.1.33" />
+        <import addon="script.skinshortcuts" version="2.0.3"/>
+        <import addon="script.image.resource.select" version="3.0.2"/>
+        <import addon="plugin.video.themoviedb.helper" version="5.4.16"/>
+        <import addon="resource.images.weathericons.white" version="0.0.6"/>
+        <import addon="script.signde.tinyppi" version="10.2.7.3"/>
+    </requires>
+    <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 3.0</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=382650</forum>
+        <source>https://github.com/signde/skin.arctic.zephyr.martian</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+            <screenshot>resources/screenshot-04.jpg</screenshot>
+            <screenshot>resources/screenshot-05.jpg</screenshot>
+            <screenshot>resources/screenshot-06.jpg</screenshot>
+            <screenshot>resources/screenshot-07.jpg</screenshot>
+            <screenshot>resources/screenshot-08.jpg</screenshot>
+            <screenshot>resources/screenshot-09.jpg</screenshot>
+            <screenshot>resources/screenshot-10.jpg</screenshot>
+        </assets>
+        <news>
+            [I][COLOR FFFF9800]v10.3.19.13[/COLOR][/I][CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags[CR][CR]
+            [B]3.19.13[/B][CR]- Improved support for musicvideos in video OSD and extended now playing info[CR]- Prefer local studio name over TMDbHelper for studio icons in video info dialog (requires proper settings in scrapers)[CR]- Extended playlist to select view type based on current media (video or music)[CR]- Movies in sets now have their own view type[CR]- Added support for upnext popups in simple mode[CR]- Added support for BRRIP and REMUX as blu-ray source flag[CR]- Improved layout of video bookmarks dialog[CR]- Hide clean/update library side menu items if disabled by kodi[CR]- Improved matching of MPAA rating icons[CR]- Don't close add-on settings dialog on back[CR]- Fixed OSD chapter markers[CR]- Fixed poster wall info slider[CR][CR]
+            [B]3.19.12[/B][CR]- Fixed vertical position of coloured media flags in music info dialog[CR]- Fixed visibility of episode count in video media flags[CR]- Fixed settings description label[CR][CR]
+            [B]3.19.11[/B][CR]- Added support for MDBList, Letterboxd and awards (Oscar/Emmy) to rating flags[CR]- Implemented media flags for PVR (ratings only)[CR]- Simplified settings for furniture media flags[CR]- Improved layout of info dialogs[CR]- Up and down arrows are only shown on menus if scrolling is active[CR]- Added now playing controls to all view side menus[CR]- Added dynamic resizing of view side menu[CR]- Added missing sort direction option to event log view[CR]- Added skin info tools to dialog info management menu[CR]- Highlight current item in video versions dialog even if not focused[CR]- Use Roboto Mono as monospaced font in all font schemes[CR]- Fixed wrong display of rotten tomatoes certified icon[CR]- Fixed inadvertent display of $0 revenue/budget in video info dialog[CR]- Fixed TMDBHelper url in dialog info movie lists[CR]- Fixed visibility of play/browse buttons in video info dialog[CR][CR]
+            [B]3.19.10[/B][CR]- Added support for skin info service manage artwork dialogs[CR]- Added indicator icons and add-on version labels to add-on browser[CR]- Added missing view options to add-on browser[CR]- Reworked layout of LibreELEC/CoreELEC settings page[CR]- Show media flags for non library items in video info dialog[CR]- Updated Czech and Russian translations[CR]- Use smaller font for buttons[CR]- Updated Chinese translations (thx @wabisabi926)[CR]- Enabled browse mode for skinshortcuts icon picker[CR]- Fixed visibility and focus handling of Skin Info Service alphabet scrollbar[CR]- Fixed text overflow in DialogConfirm[CR]- Fixed text alignment of filter in sideblade menu[CR][CR]
+            [B]3.19.9[/B][CR]- Use skin info service alphabetical scrollbar if available[CR]- Added skin info service recent episodes, recommended movies and recommended tvshows widgets[CR]- Added Onyx (pure black) as new background color option[CR]- Extended last/next aired details for TMDbHelper 6.x[CR]- Improved layout of UpNext popup to match the OSD layout[CR]- Improved conditions for new content indicators[CR]- Added support for new indicator for musicvideos[CR]- Updated translations for french (thx @GulGreg)[CR]- Removed slide of view content when alphabet scrollbar is active[CR]- Fixed alphabet scrollbar. Works now with wraplists and descending sort order[CR]- Fixed missing header info labels for vertical home menu[CR]- Fixed PVR progress indicators[CR]- Fixed layout of number input dialog[CR]- Fixed layout of buttons in video versions dialog[CR]- Fixed text overflow in EPG[CR][CR]
+            [B]3.19.8[/B][CR]- Fixed music OSD rating flags[CR][CR]
+            [B]3.19.7[/B][CR]- Added wrap list option to big poster and flix library views[CR]- Added wrap list option to widget configuration[CR]- Removed lock focus position option from global widget settings[CR][CR]
+            [B]3.19.6[/B][CR]- Added option to show number of unwatched episodes in media flags[CR]- Added slide to vertical icon only main menu[CR]- Extended tvshow progress indicators for TMDbHelper 6.x[CR]- Improved layout of add-on info dialog[CR]- Increased size of textbox in video info dialog[CR]- Display release/first aired date instead of year in dialog video info[CR]- Increased delay of OSD autohide on pause to 5 seconds[CR]- Improved default settings for blured background[CR]- New icons for AV1/AV2[CR]- Added games to widget content type selector[CR]- Added folder "other" to default widgets category[CR]- Added script.skin.info.service to list of recommended add-ons[CR]- Removed script.favourites from list of recommended add-ons[CR]- Removed option to disable add-on fanart[CR]- Various spelling fixes[CR]- Fixed visibility of progress circle in library views[CR][CR]
+            [B]3.19.5[/B][CR]- Updated icons/labels for 5, 10 and 14 audio channel layouts[CR]- Added support for script.skin.info.service v2 Next Up widget and playlist stats[CR]- Updated main menu to automatically show/hide pvr menu items[CR]- Removed option to skip startup screen[CR]- Removed unused game studio icon setting[CR]- Fixed conditions for spotlight widget fallback to TMDbHelper[CR][CR]
+            [B]3.19.4[/B][CR]- Updated translations for Spanish, Estonian, Italian, Finnish, Russian and Ukranian[CR][CR]
+            [B]3.19.3[/B][CR]- Implemented "more item" for single widgets[CR]- New design of more... item in widgets[CR]- Improved configuration of PVR widgets[CR]- Improved layout of game OSD and settings[CR]- Added missing game shortcuts and widgets[CR]- Added missing audio channel icons for 7.1.4 and 9.1.6 configurations[CR]- Improved loading of background overlays[CR]- Updated skinviewtypes.json to work with script.skinvariables 2.2.1[CR]- Fixed OSD showing after return from info dialog with TMDbHelper 5.4.16[CR]- Fixed labels in game views[CR]- Fixed weather widget for classic/vertical/featured home menu[CR]- Fixed On up/down at first/last widget, go to last/first widget option[CR][CR]
+            [B]3.19.2[/B][CR]- Added artist information option to music OSD settings[CR]- Added support for audio media flags to hub windows[CR]- Improved support for various content types in hub window[CR]- New layout for global search window[CR]- Use TMDbHelper rating as fallback for media flags[CR]- Updated French translations (@thx GulGreg)[CR]- Fixed content type mismatch in global search dialog[CR]- Fixed visibility condition for weather fanart fallback[CR]- Fixed multi widgets clearart animation[CR][CR]
+            [B]3.19.1[/B][CR]- Set widget/standard mode for TMDBHelper before opening shortcuts select dialog[CR]- Fixed use of episode thumbnails in some library views[CR][CR]
+            [B]3.19.0[/B][CR]- Added global option to disable landscape artwork[CR]- Added option to use episode thumbs as background image[CR]- Implemented fallback to season fanart as episode background[CR]- Use EPG icon as fanart/thumbnail in widgets[CR]- Prefer EPG icon over TMDbHelper fanart in tvguide and channel views[CR]- Implemented dynamic configuration for multi widgets[CR]- Widget limit can now be set per widget[CR]- Added auto widget limit option[CR]- Added additional widget sort options[CR]- Autoscroll time for widgets is now a global setting[CR]- Added content type setting for widgets[CR]- Use fanart instead of landscape images in hubs[CR]- Automatically disable submenu for hubs[CR]- Improved icon layout in select dialogs[CR]- Improved music OSD to support PVR radio[CR]- Removed aspect and distance setting for square widgets[CR]- Removed fanart widget layout[CR]- Removed square medium and square small layouts for submenu widgets[CR]- Fixed layout of dark theme OSD buttons without poster[CR]- Fixed problem that caused home background fanart appearing shortly when entering the library[CR]- Fixed background for wikipedia dialog[CR]- Fixed in progress indicator for netflix clean home[CR][CR]
+        </news>
+        <summary lang="de">Klar, minimalistisch, elegant, einfach, leicht.</summary>
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <summary lang="en_AU">Clean, minimal, elegant, simple, light.</summary>
+        <summary lang="en_US">Clean, minimal, elegant, simple, light.</summary>
+        <summary lang="es">Limpio, minimalista, elegante, simple, ligero.</summary>
+        <summary lang="fr">Clair, minimaliste, élégant, simple et léger.</summary>
+        <summary lang="fr_CA">Net, minimal, élégant, simple, léger.</summary>
+        <summary lang="lt">Švari, minimali, elegantiška, paprasta, lengva.</summary>
+        <summary lang="nl">Schoon, minimaal, elegant, simpel, licht.</summary>
+        <summary lang="pl">Prosta, minimalista, elegancka i lekka.</summary>
+        <summary lang="ro">Curat, minimalist, elegant, simplu, ușor.</summary>
+        <summary lang="ru">Опрятный, минималистичный, элегантный, простой, светлый.</summary>
+        <summary lang="zh_CN">干净，简约，优雅，简单，轻便。</summary>
+        <description lang="de">Arctic: Zephyr - Martian basiert auf dem original Arctic: Zephyr Skin von jurialmunkey und dessen Erweiterungen durch beatmasterRS. Es ist ein minimalistisches, klares und simples Interface für deine Medien mit dem gewissen Etwas.</description>
+        <description lang="en">Arctic: Zephyr - Martian is based on the original Arctic: Zephyr skin, created by jurialmunkey and it's extension by beatmasterRS. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
+        <description lang="en_AU">Arctic: Zephyr - Martian is based on the original Arctic: Zephyr skin, created by jurialmunkey and it's extension by beatmasterRS. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
+        <description lang="en_US">Arctic: Zephyr - Martian is based on the original Arctic: Zephyr skin, created by jurialmunkey and it's extension by beatmasterRS. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
+        <description lang="fr">Arctic: Zephyr - Martian est basé sur le skin original Arctic: Zephyr, créé par jurialmunkey et son extension par beatmasterRS. Arctic se focalise sur le fait d&apos;être simple, claire et minimaliste.</description>
+        <description lang="zh_CN">Arctic: Zephyr - Martian 是基于 jurialmunkey 所创 Arctic 皮肤的第三个版本，以及 beatmasterRS 对该皮肤的扩展版本。Arctic 系列皮肤主打简洁、干净且简约的风格，并略带独特设计巧思。</description>
+    </extension>
+</addon>

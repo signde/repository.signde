@@ -1,4 +1,4 @@
-<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="65.3.2.16">
+<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="68.3.2.16">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.2.2" />
@@ -7,6 +7,7 @@
         <import addon="resource.images.weathericons.white" version="0.0.1" />
         <import addon="resource.images.studios.coloured" version="0.0.1" />
         <import addon="resource.font.robotocjksc" version="0.0.3" />
+        <import addon="script.signde.tinyppi" version="10.2.7.3" />
     </requires>
     <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
         <res aspect="16:9" default="true" folder="1080i" width="1920" height="1080" />
@@ -34,6 +35,8 @@
         <forum />
         <source />
         <news>
+            [I][COLOR FFFF9800]v68.3.2.16[/COLOR][/I][CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags
+
             [I][COLOR FFFF9800]v65.3.2.16[/COLOR][/I][CR]- Added an option to hide audio channel-layout artwork[CR]- Improved media flag compatibility with legacy and NFO codec values
 
             [I][COLOR FFFF9800]v64.3.2.16[/COLOR][/I][CR]- Updated to upstream 3.2.16

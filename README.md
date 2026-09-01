@@ -17,10 +17,42 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
     - ZIP Install: https://signde.github.io/repository.signde/repository.signde-1.2.zip
 4. Install the skin from repo: signde repository > Look and Feel > Skins
 
-Note: Some skins such as AF2/AF3 do not display the updated Player Process Info overlay by default - it must be enabled. Navigate to: Settings > Customizations > avdvplus/p3i > PlayerProcessInfo Display: Classic/Modern.
-
 ## Changes
 
+- September 6th 2026
+    - TMDb Helper v6.17.1: Updated to upstream v6.17.1
+    - signde PPI v13.2.7.5
+        - Forked TinyPPI as signde PPI under the independent `script.signde.tinyppi` add-on ID so it can coexist with the original add-on
+        - Added the shared Player Process Info layout and CoreELEC 21 `Player.Process` integration
+        - Added Classic and Modern background modes, with Classic as the default
+    - Arctic Fuse 3 v68.3.2.16
+        - Added Profile 7 MEL/FEL media flags
+        - Delegated Player Process Info and playback codec badges to signde PPI
+    - Arctic Fuse 2 v104.2.12.12
+        - Added an entirely new set of optional custom media icons, including Profile 7 MEL/FEL media flags
+        - Delegated Player Process Info and playback codec badges to signde PPI
+    - Aeon Nox Silvo v68.10.0.4
+        - Added Profile 7 MEL/FEL media flags
+        - Fixed background video display
+        - Delegated Player Process Info and playback codec badges to signde PPI
+    - Arctic Horizon 2 v64.0.8.30
+        - Added Profile 7 MEL/FEL media flags
+        - Delegated Player Process Info and playback codec badges to signde PPI
+    - Arctic Zephyr Reloaded v65.3.0.3
+        - Added Profile 7 MEL/FEL media flags
+        - Delegated Player Process Info and playback codec badges to signde PPI
+    - Arctic Zephyr Martian v10.3.19.13
+        - Added Profile 7 MEL/FEL media flags
+        - Delegated Player Process Info and playback codec badges to signde PPI
+    - Arctic Zephyr 2 Resurrection v68.1.0.52
+        - Added Profile 7 MEL/FEL media flags
+        - Delegated Player Process Info and playback codec badges to signde PPI
+    - Bingie v39.2.0.2
+        - Added Profile 7 MEL/FEL media flags
+        - Delegated Player Process Info and playback codec badges to signde PPI
+    - Confluence v65.5.1.3
+        - Added Profile 7 MEL/FEL media flags
+        - Delegated Player Process Info and playback codec badges to signde PPI
 - August 31st 2026
     - TMDb Helper v6.16.7: Updated to upstream v6.16.7
 - August 28th 2026

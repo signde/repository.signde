@@ -1,4 +1,4 @@
-<addon id="skin.arctic.fuse.2" name="Arctic Fuse 2 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362" version="101.2.12.12">
+<addon id="skin.arctic.fuse.2" name="Arctic Fuse 2 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362" version="104.2.12.12">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.1.28" />
@@ -7,6 +7,7 @@
         <import addon="resource.images.weathericons.white" version="0.0.1" />
         <import addon="resource.images.studios.coloured" version="0.0.1" />
         <import addon="resource.font.robotocjksc" version="0.0.3" />
+        <import addon="script.signde.tinyppi" version="10.2.7.3" />
     </requires>
     <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
         <res aspect="16:9" default="true" folder="1080i" width="1920" height="1080" />
@@ -26,6 +27,7 @@
         <forum />
         <source />
         <news>
+            [I][COLOR FFFF9800]v104.2.12.12[/COLOR][/I][CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added an entirely new set of optional custom media icons, including Profile 7 MEL/FEL media flags[CR][CR]
             [I][COLOR FFFF9800]v101.2.12.12[/COLOR][/I][CR]- Added audio channel-layout artwork with an option to hide it[CR]- Added Dolby Vision enhancement-layer indicators to codec badges[CR]- Unified and tightened the modern Player Process Info layout[CR][CR]
             [I][COLOR FFFF9800]v100.2.12.12[/COLOR][/I][CR]- Improved Atmos and DTS:X detection in library information[CR]- Fixed stale codec information while browsing the library[CR][CR]
             [I][COLOR FFFF9800]v99.2.12.12[/COLOR][/I][CR]- Fixed Dolby Vision L5 active-area offsets in Player Process Info[CR][CR]

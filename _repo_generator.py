@@ -34,16 +34,20 @@ IGNORE = [
 # trees, so replacing a bundle from only the loose files would discard assets.
 PRESERVE_TEXTURE_BUNDLES = {
     "skin.arctic.fuse.2",
+    "skin.arctic.zephyr.2.resurrection.mod",
     "skin.arctic.zephyr.mod",
     "skin.bingie",
     "skin.confluence",
 }
-# Most preserved bundles already contain every loose image and can be packaged
-# alone. Bingie's bundle does not include all of its newer p3i/VS10 media, so its
-# loose media must also be included as a fallback alongside the preserved XBT.
+# Preserved bundles do not contain newer p3i/VS10 and enhanced-PPI assets added
+# as loose files, so these skins use hybrid packaging: retain the upstream XBT
+# and include the newer loose media alongside it.
 INCLUDE_LOOSE_MEDIA_WITH_TEXTURE_BUNDLE = {
     "skin.arctic.fuse.2",
+    "skin.arctic.zephyr.2.resurrection.mod",
+    "skin.arctic.zephyr.mod",
     "skin.bingie",
+    "skin.confluence",
 }
 
 
@@ -320,8 +324,6 @@ class Generator:
         final_zip = os.path.join(zip_folder, "{0}-{1}.zip".format(addon_id, version))
 
         zip = zipfile.ZipFile(final_zip, "w", compression=zipfile.ZIP_DEFLATED)
-        root_len = len(os.path.dirname(os.path.abspath(addon_folder)))
-
         for root, dirs, files in os.walk(addon_folder):
             # remove any unneeded artifacts
             for i in IGNORE:
@@ -332,14 +334,13 @@ class Generator:
                         pass
                 files[:] = [f for f in files if not f.startswith(i)]
 
-            archive_root = os.path.abspath(root)[root_len:]
-
             for f in files:
                 fullpath = os.path.join(root, f)
                 if not self._should_zip_file(addon_folder, fullpath):
                     continue
 
-                archive_name = os.path.join(archive_root, f)
+                relative_name = os.path.relpath(fullpath, addon_folder)
+                archive_name = os.path.join(addon_id, relative_name)
                 zip.write(fullpath, archive_name, zipfile.ZIP_DEFLATED)
 
         zip.close()

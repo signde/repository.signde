@@ -74,3 +74,10 @@
 	path = addons/skin.arctic.horizon.2
 	url = https://github.com/signde/skin.arctic.horizon.2.git
 	branch = main
+[submodule "addons/skin.arctic.zephyr.martian"]
+	path = addons/skin.arctic.zephyr.martian
+	url = https://github.com/signde/skin.arctic.zephyr.martian.git
+[submodule "addons/script.tinyppi"]
+	path = addons/script.tinyppi
+	url = https://github.com/signde/script.tinyppi.git
+	branch = main
