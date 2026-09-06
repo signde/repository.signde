@@ -28,7 +28,8 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
     - Arctic Fuse 3 v68.3.2.16
         - Added Profile 7 MEL/FEL media flags
         - Delegated Player Process Info and playback codec badges to signde PPI
-    - Arctic Fuse 2 v104.2.12.12
+    - Arctic Fuse 2 v105.2.12.12
+        - Restored the Interface setting used to enable custom media icons
         - Added an entirely new set of optional custom media icons, including Profile 7 MEL/FEL media flags
         - Delegated Player Process Info and playback codec badges to signde PPI
     - Aeon Nox Silvo v68.10.0.4
