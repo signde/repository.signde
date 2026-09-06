@@ -425,7 +425,7 @@
             <path>script.wikipedia/script.wikipedia-0.2.0.zip</path>
         </extension>
     </addon>
-    <addon id="skin.aeon.nox.silvo" version="68.10.0.4" name="Aeon Nox: SiLVO (avdvplus/p3i)" provider-name="SiLVO, jamal2362, signde">
+    <addon id="skin.aeon.nox.silvo.signde" version="69.10.0.4" name="Aeon Nox: SiLVO (avdvplus/p3i)" provider-name="SiLVO, jamal2362, signde">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinshortcuts" version="2.0.1" />
@@ -528,7 +528,7 @@
                 <screenshot>resources/screenshots/screenshot-12.jpg</screenshot>
             </assets>
             <news>
-			[I][COLOR FFFF9800]v68.10.0.4[/COLOR][/I][CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags[CR]- Fixed background video display on the Home screen
+			[I][COLOR FFFF9800]v69.10.0.4[/COLOR][/I][CR]- Assigned the independent skin.aeon.nox.silvo.signde add-on ID to prevent conflicts with upstream releases[CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags[CR]- Fixed background video display on the Home screen
 
 			[I][COLOR FFFF9800]v65.10.0.4[/COLOR][/I][CR]- Added an option to hide audio channel-layout artwork
 
@@ -540,8 +540,8 @@
 
 			[I][COLOR FFFF9800]v61.10.0.4[/COLOR][/I][CR]- Minor PPI fixes
 		</news>
-            <size>85444914</size>
-            <path>skin.aeon.nox.silvo/skin.aeon.nox.silvo-68.10.0.4.zip</path>
+            <size>85457916</size>
+            <path>skin.aeon.nox.silvo.signde/skin.aeon.nox.silvo.signde-69.10.0.4.zip</path>
         </extension>
     </addon>
     <addon id="skin.arctic.fuse.2" name="Arctic Fuse 2 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362" version="105.2.12.12">
@@ -764,7 +764,7 @@
             <path>skin.arctic.zephyr.2.resurrection.mod/skin.arctic.zephyr.2.resurrection.mod-68.1.0.52.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.zephyr.martian" version="10.3.19.13" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
+    <addon id="skin.arctic.zephyr.martian.signde" version="11.3.19.13" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinvariables" version="2.1.33" />
@@ -797,7 +797,7 @@
                 <screenshot>resources/screenshot-10.jpg</screenshot>
             </assets>
             <news>
-            [I][COLOR FFFF9800]v10.3.19.13[/COLOR][/I][CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags[CR][CR]
+            [I][COLOR FFFF9800]v11.3.19.13[/COLOR][/I][CR]- Assigned the independent skin.arctic.zephyr.martian.signde add-on ID to prevent conflicts with upstream releases[CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags[CR][CR]
             [B]3.19.13[/B][CR]- Improved support for musicvideos in video OSD and extended now playing info[CR]- Prefer local studio name over TMDbHelper for studio icons in video info dialog (requires proper settings in scrapers)[CR]- Extended playlist to select view type based on current media (video or music)[CR]- Movies in sets now have their own view type[CR]- Added support for upnext popups in simple mode[CR]- Added support for BRRIP and REMUX as blu-ray source flag[CR]- Improved layout of video bookmarks dialog[CR]- Hide clean/update library side menu items if disabled by kodi[CR]- Improved matching of MPAA rating icons[CR]- Don't close add-on settings dialog on back[CR]- Fixed OSD chapter markers[CR]- Fixed poster wall info slider[CR][CR]
             [B]3.19.12[/B][CR]- Fixed vertical position of coloured media flags in music info dialog[CR]- Fixed visibility of episode count in video media flags[CR]- Fixed settings description label[CR][CR]
             [B]3.19.11[/B][CR]- Added support for MDBList, Letterboxd and awards (Oscar/Emmy) to rating flags[CR]- Implemented media flags for PVR (ratings only)[CR]- Simplified settings for furniture media flags[CR]- Improved layout of info dialogs[CR]- Up and down arrows are only shown on menus if scrolling is active[CR]- Added now playing controls to all view side menus[CR]- Added dynamic resizing of view side menu[CR]- Added missing sort direction option to event log view[CR]- Added skin info tools to dialog info management menu[CR]- Highlight current item in video versions dialog even if not focused[CR]- Use Roboto Mono as monospaced font in all font schemes[CR]- Fixed wrong display of rotten tomatoes certified icon[CR]- Fixed inadvertent display of $0 revenue/budget in video info dialog[CR]- Fixed TMDBHelper url in dialog info movie lists[CR]- Fixed visibility of play/browse buttons in video info dialog[CR][CR]
@@ -832,8 +832,8 @@
             <description lang="en_US">Arctic: Zephyr - Martian is based on the original Arctic: Zephyr skin, created by jurialmunkey and it's extension by beatmasterRS. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
             <description lang="fr">Arctic: Zephyr - Martian est basé sur le skin original Arctic: Zephyr, créé par jurialmunkey et son extension par beatmasterRS. Arctic se focalise sur le fait d'être simple, claire et minimaliste.</description>
             <description lang="zh_CN">Arctic: Zephyr - Martian 是基于 jurialmunkey 所创 Arctic 皮肤的第三个版本，以及 beatmasterRS 对该皮肤的扩展版本。Arctic 系列皮肤主打简洁、干净且简约的风格，并略带独特设计巧思。</description>
-            <size>51657955</size>
-            <path>skin.arctic.zephyr.martian/skin.arctic.zephyr.martian-10.3.19.13.zip</path>
+            <size>51669812</size>
+            <path>skin.arctic.zephyr.martian.signde/skin.arctic.zephyr.martian.signde-11.3.19.13.zip</path>
         </extension>
     </addon>
     <addon id="skin.arctic.zephyr.mod" version="65.3.0.3" name="Arctic: Zephyr - Reloaded (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, jamal2362">
@@ -945,7 +945,7 @@
             <path>skin.bingie/skin.bingie-39.2.0.2.zip</path>
         </extension>
     </addon>
-    <addon id="skin.confluence" version="65.5.1.3" name="Confluence (avdvplus/p3i)" provider-name="Jezz_X, Team Kodi, jamal2362">
+    <addon id="skin.confluence.signde" version="66.5.1.3" name="Confluence (avdvplus/p3i)" provider-name="Jezz_X, Team Kodi, jamal2362">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.signde.tinyppi" version="10.2.7.3" />
@@ -972,7 +972,7 @@
                 <screenshot>resources/screenshot-09.jpg</screenshot>
             </assets>
             <news>
-			[I][COLOR FFFF9800]v65.5.1.3[/COLOR][/I][CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags
+			[I][COLOR FFFF9800]v66.5.1.3[/COLOR][/I][CR]- Assigned the independent skin.confluence.signde add-on ID to prevent conflicts with upstream releases[CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags
 
 			[I][COLOR FFFF9800]v63.5.1.3[/COLOR][/I][CR]- Improved Atmos and DTS:X detection in library and playback information
 
@@ -1099,8 +1099,8 @@
             <description lang="vi_VN">Confluence là giao diện mặc định cho Kodi 9.11 and các phiên bản trở về trước. Đây là sự kết hợp các khái niệm đến từ các giao diện khác nhau nhằm hướng người dùng đến sự đơn giản và dễ sử dụng.</description>
             <description lang="zh_CN">Confluence 集合了许多流行皮肤的创意，力求把这些优点融合到一个皮肤中，使得首次[CR]使用 Kodi 的用户能更容易上手。</description>
             <description lang="zh_TW">Confluence 是從 Kodi 9.11 開始預設的面板。它結合了許多受歡迎面板的概念，且試圖包含並整合它們的優點，使第一次使用 Kodi 的使用者可以簡單地上手。</description>
-            <size>12376565</size>
-            <path>skin.confluence/skin.confluence-65.5.1.3.zip</path>
+            <size>12385951</size>
+            <path>skin.confluence.signde/skin.confluence.signde-66.5.1.3.zip</path>
         </extension>
     </addon>
 </addons>

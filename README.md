@@ -32,7 +32,8 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
         - Restored the Interface setting used to enable custom media icons
         - Added an entirely new set of optional custom media icons, including Profile 7 MEL/FEL media flags
         - Delegated Player Process Info and playback codec badges to signde PPI
-    - Aeon Nox Silvo v68.10.0.4
+    - Aeon Nox Silvo v69.10.0.4
+        - Assigned the independent `skin.aeon.nox.silvo.signde` add-on ID to prevent conflicts with upstream releases
         - Added Profile 7 MEL/FEL media flags
         - Fixed background video display
         - Delegated Player Process Info and playback codec badges to signde PPI
@@ -42,7 +43,8 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
     - Arctic Zephyr Reloaded v65.3.0.3
         - Added Profile 7 MEL/FEL media flags
         - Delegated Player Process Info and playback codec badges to signde PPI
-    - Arctic Zephyr Martian v10.3.19.13
+    - Arctic Zephyr Martian v11.3.19.13
+        - Assigned the independent `skin.arctic.zephyr.martian.signde` add-on ID to prevent conflicts with upstream releases
         - Added Profile 7 MEL/FEL media flags
         - Delegated Player Process Info and playback codec badges to signde PPI
     - Arctic Zephyr 2 Resurrection v68.1.0.52
@@ -51,7 +53,8 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
     - Bingie v39.2.0.2
         - Added Profile 7 MEL/FEL media flags
         - Delegated Player Process Info and playback codec badges to signde PPI
-    - Confluence v65.5.1.3
+    - Confluence v66.5.1.3
+        - Assigned the independent `skin.confluence.signde` add-on ID to prevent conflicts with upstream releases
         - Added Profile 7 MEL/FEL media flags
         - Delegated Player Process Info and playback codec badges to signde PPI
 - August 31st 2026
