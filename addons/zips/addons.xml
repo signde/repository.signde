@@ -384,10 +384,11 @@
             <path>script.skinvariables/script.skinvariables-2.2.2.zip</path>
         </extension>
     </addon>
-    <addon id="script.texturemaker" version="0.2.9" name="Texture Maker" provider-name="jurialmunkey">
+    <addon id="script.texturemaker" version="0.2.11" name="Texture Maker" provider-name="jurialmunkey">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.pil" version="1.1.7" />
+            <import addon="script.module.jurialmunkey" version="0.2.28" />
         </requires>
         <extension point="xbmc.python.script" library="script.py" />
         <extension point="xbmc.python.pluginsource" library="plugin.py">
@@ -402,8 +403,8 @@
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
             </assets>
-            <size>171471</size>
-            <path>script.texturemaker/script.texturemaker-0.2.9.zip</path>
+            <size>171850</size>
+            <path>script.texturemaker/script.texturemaker-0.2.11.zip</path>
         </extension>
     </addon>
     <addon id="script.wikipedia" version="0.2.0" name="Wikipedia" provider-name="jurialmunkey">

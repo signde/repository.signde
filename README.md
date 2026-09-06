@@ -20,6 +20,7 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 ## Changes
 
 - September 6th 2026
+    - Texture Maker v0.2.11: Updated to upstream v0.2.11
     - signde PPI v14.2.7.5
         - Fixed VS10 dialog navigation so Player Process Info remains selectable
     - Arctic Fuse 2 v106.2.12.12
