@@ -611,7 +611,7 @@
             <path>skin.arctic.fuse.2/skin.arctic.fuse.2-106.2.12.12.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="68.3.2.16">
+    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="69.3.2.19">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinvariables" version="2.2.2" />
@@ -648,6 +648,8 @@
             <forum />
             <source />
             <news>
+            [I][COLOR FFFF9800]v69.3.2.19[/COLOR][/I][CR]- Updated to upstream 3.2.19
+
             [I][COLOR FFFF9800]v68.3.2.16[/COLOR][/I][CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags
 
             [I][COLOR FFFF9800]v65.3.2.16[/COLOR][/I][CR]- Added an option to hide audio channel-layout artwork[CR]- Improved media flag compatibility with legacy and NFO codec values
@@ -674,8 +676,8 @@
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
             </assets>
-            <size>47651466</size>
-            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-68.3.2.16.zip</path>
+            <size>47658630</size>
+            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-69.3.2.19.zip</path>
         </extension>
     </addon>
     <addon id="skin.arctic.horizon.2" name="Arctic Horizon 2 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="64.0.8.30">

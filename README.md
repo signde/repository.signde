@@ -20,6 +20,7 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 ## Changes
 
 - September 6th 2026
+    - Arctic Fuse 3 v69.3.2.19: Updated to upstream v3.2.19
     - InfoTagger v0.0.9: Added required dependency for TMDb Helper v6.17.1
     - Texture Maker v0.2.11: Updated to upstream v0.2.11
     - signde PPI v14.2.7.5
