@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.signde.tinyppi" name="signde PPI (avdvplus / p3i)" version="13.2.7.5" provider-name="jamal2362, signde">
+<addon id="script.signde.tinyppi" name="signde PPI (avdvplus / p3i)" version="14.2.7.5" provider-name="jamal2362, signde">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -27,6 +27,8 @@
             <fanart>fanart.jpg</fanart>
         </assets>
         <news>
+            [B]14.2.7.5[/B][CR]
+            - Fixed VS10 dialog navigation so Player Process Info remains selectable[CR][CR]
             [B]13.2.7.5[/B][CR]
             - Added a Vorbis codec badge for Vorbis and Ogg Vorbis streams[CR]
             - Restored the full CoreELEC 21 VS10 mode list and source-specific availability rules[CR]

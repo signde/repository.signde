@@ -294,7 +294,7 @@
             <path>script.module.jurialmunkey/script.module.jurialmunkey-0.2.35.zip</path>
         </extension>
     </addon>
-    <addon id="script.signde.tinyppi" name="signde PPI (avdvplus / p3i)" version="13.2.7.5" provider-name="jamal2362, signde">
+    <addon id="script.signde.tinyppi" name="signde PPI (avdvplus / p3i)" version="14.2.7.5" provider-name="jamal2362, signde">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
         </requires>
@@ -322,6 +322,8 @@
                 <fanart>fanart.jpg</fanart>
             </assets>
             <news>
+            [B]14.2.7.5[/B][CR]
+            - Fixed VS10 dialog navigation so Player Process Info remains selectable[CR][CR]
             [B]13.2.7.5[/B][CR]
             - Added a Vorbis codec badge for Vorbis and Ogg Vorbis streams[CR]
             - Restored the full CoreELEC 21 VS10 mode list and source-specific availability rules[CR]
@@ -329,8 +331,8 @@
             - Added CoreELEC 21 Player.Process integration
             - Forked TinyPPI as signde PPI under the script.signde.tinyppi ID for independent installation alongside the original add-on[CR]
         </news>
-            <size>1251975</size>
-            <path>script.signde.tinyppi/script.signde.tinyppi-13.2.7.5.zip</path>
+            <size>1252113</size>
+            <path>script.signde.tinyppi/script.signde.tinyppi-14.2.7.5.zip</path>
         </extension>
     </addon>
     <addon id="script.skinhelper" name="SkinHelper" version="0.0.4" provider-name="heppen">
@@ -544,7 +546,7 @@
             <path>skin.aeon.nox.silvo.signde/skin.aeon.nox.silvo.signde-69.10.0.4.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.fuse.2" name="Arctic Fuse 2 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362" version="105.2.12.12">
+    <addon id="skin.arctic.fuse.2" name="Arctic Fuse 2 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362" version="106.2.12.12">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinvariables" version="2.1.28" />
@@ -573,6 +575,7 @@
             <forum />
             <source />
             <news>
+            [I][COLOR FFFF9800]v106.2.12.12[/COLOR][/I][CR]- Fixed the Video OSD Player Process Info button[CR][CR]
             [I][COLOR FFFF9800]v105.2.12.12[/COLOR][/I][CR]- Restored the Interface setting used to enable custom media icons[CR][CR]
             [I][COLOR FFFF9800]v104.2.12.12[/COLOR][/I][CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added an entirely new set of optional custom media icons, including Profile 7 MEL/FEL media flags[CR][CR]
             [I][COLOR FFFF9800]v101.2.12.12[/COLOR][/I][CR]- Added audio channel-layout artwork with an option to hide it[CR]- Added Dolby Vision enhancement-layer indicators to codec badges[CR]- Unified and tightened the modern Player Process Info layout[CR][CR]
@@ -584,8 +587,8 @@
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
             </assets>
-            <size>71626556</size>
-            <path>skin.arctic.fuse.2/skin.arctic.fuse.2-105.2.12.12.zip</path>
+            <size>71626595</size>
+            <path>skin.arctic.fuse.2/skin.arctic.fuse.2-106.2.12.12.zip</path>
         </extension>
     </addon>
     <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="68.3.2.16">
