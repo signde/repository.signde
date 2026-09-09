@@ -1,4 +1,4 @@
-<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="69.3.2.19">
+<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="70.3.2.19">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.2.2" />
@@ -35,6 +35,7 @@
         <forum />
         <source />
         <news>
+            [I][COLOR FFFF9800]v70.3.2.19[/COLOR][/I][CR]- Changed the Video OSD PPI/VS10 selector to open on Select/click or Up instead of automatically on focus[CR][CR]
             [I][COLOR FFFF9800]v69.3.2.19[/COLOR][/I][CR]- Updated to upstream 3.2.19
 
             [I][COLOR FFFF9800]v68.3.2.16[/COLOR][/I][CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags

@@ -19,6 +19,12 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 
 ## Changes
 
+- September 9th 2026
+    - Arctic Fuse 3 v70.3.2.19
+        - Changed the Video OSD PPI/VS10 selector to open on Select/click or Up instead of automatically on focus
+    - Arctic Fuse 2 v107.2.12.12
+        - Changed the Video OSD PPI/VS10 selector to open on Select/click or Up instead of automatically on focus
+
 - September 6th 2026
     - Arctic Fuse 3 v69.3.2.19: Updated to upstream v3.2.19
     - InfoTagger v0.0.9: Added required dependency for TMDb Helper v6.17.1
