@@ -22,7 +22,7 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 - September 12th 2026
     - signde PPI v15.2.7.5
         - Added a Top/Bottom option for the Dolby Vision pill in codec badges, with Top as the default (requested by @Aemstel via kodi forum).
-        - Updated PPI to indicate when audio output is being decoded (requested by MrMojoRisin85 via avsforum).
+        - Updated PPI to indicate when audio output is being decoded (requested by @MrMojoRisin85 via avsforum).
 
 - September 9th 2026
     - Arctic Fuse 3 v70.3.2.19
