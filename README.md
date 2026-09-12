@@ -20,6 +20,8 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 ## Changes
 
 - September 12th 2026
+    - Arctic Zephyr Martian v11.3.20.0
+        - Updated to upstream Martian v3.20.0
     - signde PPI v15.2.7.5
         - Added a Top/Bottom option for the Dolby Vision pill in codec badges, with Top as the default (requested by @Aemstel via kodi forum).
         - Updated PPI to indicate when audio output is being decoded (requested by @MrMojoRisin85 via avsforum).
