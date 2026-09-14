@@ -19,6 +19,12 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 
 ## Changes
 
+- September 14th 2026
+    - Arctic Fuse 3 v71.3.2.19
+        - Fixed missing codec information in the Video menu during playback.
+    - signde PPI v16.2.7.5
+        - Fixed the VS10 status display when changing output formats during playback.
+
 - September 12th 2026
     - Arctic Zephyr Martian v11.3.20.0
         - Updated to upstream Martian v3.20.0

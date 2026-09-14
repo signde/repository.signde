@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.signde.tinyppi" name="signde PPI (avdvplus / p3i)" version="15.2.7.5" provider-name="jamal2362, signde">
+<addon id="script.signde.tinyppi" name="signde PPI (avdvplus / p3i)" version="16.2.7.5" provider-name="jamal2362, signde">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -27,6 +27,8 @@
             <fanart>fanart.jpg</fanart>
         </assets>
         <news>
+            [B]16.2.7.5[/B][CR]
+            - Fixed the VS10 status display when changing output formats during playback.[CR][CR]
             [B]15.2.7.5[/B][CR]
             - Added a Top/Bottom option for the Dolby Vision pill in codec badges, with Top as the default (requested by @Aemstel via kodi forum).[CR]
             - Updated PPI to indicate when audio output is being decoded (requested by MrMojoRisin85 via avsforum).[CR][CR]
