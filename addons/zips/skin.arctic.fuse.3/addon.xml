@@ -1,7 +1,7 @@
-<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="71.3.2.19">
+<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="71.3.3.0">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
-        <import addon="script.skinvariables" version="2.2.2" />
+        <import addon="script.skinvariables" version="2.2.3" />
         <import addon="script.texturemaker" version="0.2.9" />
         <import addon="plugin.video.themoviedb.helper" version="6.16.0" />
         <import addon="resource.images.weathericons.white" version="0.0.1" />
@@ -35,6 +35,7 @@
         <forum />
         <source />
         <news>
+            [I][COLOR FFFF9800]v71.3.3.0[/COLOR][/I][CR]- Updated to upstream v3.3.0.[CR][CR]
             [I][COLOR FFFF9800]v71.3.2.19[/COLOR][/I][CR]- Fixed missing codec information in the Video menu during playback.[CR][CR]
             [I][COLOR FFFF9800]v70.3.2.19[/COLOR][/I][CR]- Changed the Video OSD PPI/VS10 selector to open on Select/click or Up instead of automatically on focus[CR][CR]
 

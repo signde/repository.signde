@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.signde.tinyppi" name="signde PPI (avdvplus / p3i)" version="16.2.7.5" provider-name="jamal2362, signde">
+<addon id="script.signde.tinyppi" name="signde PPI (avdvplus / p3i)" version="17.2.7.5" provider-name="jamal2362, signde">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -27,6 +27,8 @@
             <fanart>fanart.jpg</fanart>
         </assets>
         <news>
+            [B]17.2.7.5[/B][CR]
+            - Codec badges now appear for videos with no audio track or an unrecognized audio format.[CR][CR]
             [B]16.2.7.5[/B][CR]
             - Fixed the VS10 status display when changing output formats during playback.[CR][CR]
             [B]15.2.7.5[/B][CR]

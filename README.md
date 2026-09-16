@@ -19,6 +19,12 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 
 ## Changes
 
+- September 16th 2026
+    - signde PPI v17.2.7.5
+        - Codec badges now appear for videos with no audio track or an unrecognized audio format.
+    - Arctic Fuse 3 v71.3.3.0: Updated to upstream v3.3.0
+    - Skin Variables v2.2.3: Updated to upstream v2.2.3
+
 - September 14th 2026
     - Arctic Fuse 3 v71.3.2.19
         - Fixed missing codec information in the Video menu during playback.
