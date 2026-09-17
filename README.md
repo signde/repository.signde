@@ -19,6 +19,9 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 
 ## Changes
 
+- September 17th 2026
+    - TMDb Helper v6.17.3: Updated to upstream v6.17.3
+
 - September 16th 2026
     - signde PPI v17.2.7.5
         - Codec badges now appear for videos with no audio track or an unrecognized audio format.
