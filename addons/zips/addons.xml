@@ -801,7 +801,7 @@
             <path>skin.arctic.zephyr.2.resurrection.mod/skin.arctic.zephyr.2.resurrection.mod-68.1.0.52.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.0" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
+    <addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.1" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinvariables" version="2.1.33" />
@@ -834,6 +834,21 @@
                 <screenshot>resources/screenshot-10.jpg</screenshot>
             </assets>
             <news>
+[B]11.3.20.1[/B]
+- Updated to upstream Martian v3.20.1
+
+[B]3.20.1[/B]
+- Updated default powermenu
+- Adjusted vertical position of home menu icons
+- Replaced panel controls with lists in all list views
+- Added missing sets indicator to cleanflix home menu
+- Fixed conditions for watched / unwatched indicators
+- Fixed priority of unwatched indicators
+- Fixed visibility of RebootToAndroid power menu item
+- Fixed missing message label for "Fullsize Fanart"
+- Fixed scrolling bug in list views with extended info
+- Fixed missing monochrome icon for Rotten Tomatoes certified hot
+
 [B]11.3.20.0[/B]
 - Updated to upstream Martian v3.20.0
 
@@ -1041,8 +1056,8 @@
             <description lang="en_US">Arctic: Zephyr - Martian is based on the original Arctic: Zephyr skin, created by jurialmunkey and it's extension by beatmasterRS. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
             <description lang="fr">Arctic: Zephyr - Martian est basé sur le skin original Arctic: Zephyr, créé par jurialmunkey et son extension par beatmasterRS. Arctic se focalise sur le fait d'être simple, claire et minimaliste.</description>
             <description lang="zh_CN">Arctic: Zephyr - Martian 是基于 jurialmunkey 所创 Arctic 皮肤的第三个版本，以及 beatmasterRS 对该皮肤的扩展版本。Arctic 系列皮肤主打简洁、干净且简约的风格，并略带独特设计巧思。</description>
-            <size>51659170</size>
-            <path>skin.arctic.zephyr.martian.signde/skin.arctic.zephyr.martian.signde-11.3.20.0.zip</path>
+            <size>51659412</size>
+            <path>skin.arctic.zephyr.martian.signde/skin.arctic.zephyr.martian.signde-11.3.20.1.zip</path>
         </extension>
     </addon>
     <addon id="skin.arctic.zephyr.mod" version="65.3.0.3" name="Arctic: Zephyr - Reloaded (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, jamal2362">

@@ -19,6 +19,10 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 
 ## Changes
 
+- September 18th 2026
+    - Arctic Zephyr Martian v11.3.20.1
+        - Updated to upstream Martian v3.20.1
+
 - September 17th 2026
     - TMDb Helper v6.17.3: Updated to upstream v6.17.3
 
