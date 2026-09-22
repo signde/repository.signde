@@ -19,6 +19,10 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 
 ## Changes
 
+- September 22nd 2026
+    - Arctic Fuse 3 v71.3.3.2: Updated to upstream v3.3.2
+    - Skin Variables v2.2.4: Updated to upstream v2.2.4
+
 - September 18th 2026
     - Arctic Zephyr Martian v11.3.20.1
         - Updated to upstream Martian v3.20.1
