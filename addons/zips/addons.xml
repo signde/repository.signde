@@ -619,7 +619,7 @@
             <path>skin.arctic.fuse.2/skin.arctic.fuse.2-107.2.12.12.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="71.3.3.2">
+    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="71.3.3.3">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinvariables" version="2.2.4" />
@@ -656,6 +656,7 @@
             <forum />
             <source />
             <news>
+            [I][COLOR FFFF9800]v71.3.3.3[/COLOR][/I][CR]- Updated to upstream v3.3.3.[CR][CR]
             [I][COLOR FFFF9800]v71.3.3.2[/COLOR][/I][CR]- Updated to upstream v3.3.2.[CR][CR]
             [I][COLOR FFFF9800]v71.3.3.0[/COLOR][/I][CR]- Updated to upstream v3.3.0.[CR][CR]
             [I][COLOR FFFF9800]v71.3.2.19[/COLOR][/I][CR]- Fixed missing codec information in the Video menu during playback.[CR][CR]
@@ -689,8 +690,8 @@
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
             </assets>
-            <size>48974003</size>
-            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-71.3.3.2.zip</path>
+            <size>48979768</size>
+            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-71.3.3.3.zip</path>
         </extension>
     </addon>
     <addon id="skin.arctic.horizon.2" name="Arctic Horizon 2 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="64.0.8.30">
@@ -730,7 +731,7 @@
             <path>skin.arctic.horizon.2/skin.arctic.horizon.2-64.0.8.30.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection (avdvplus/p3i)" provider-name="jurialmunkey, pkscout, heppen, jamal2362" version="68.1.0.52">
+    <addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection (avdvplus/p3i)" provider-name="jurialmunkey, pkscout, heppen, jamal2362" version="68.1.0.53">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinshortcuts" />
@@ -782,6 +783,7 @@
                 <screenshot>resources/screenshot-06.jpg</screenshot>
             </assets>
             <news>
+            [I][COLOR FFFF9800]v68.1.0.53[/COLOR][/I][CR]- Updated to upstream v1.0.53.[CR][CR]
             [I][COLOR FFFF9800]v68.1.0.52[/COLOR][/I][CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags
 
             [I][COLOR FFFF9800]v66.1.0.52[/COLOR][/I][CR]- Updated to upstream 1.0.52
@@ -798,11 +800,11 @@
 
             [I][COLOR FFFF9800]v61.1.0.51[/COLOR][/I][CR]- Restored p3i support on Kodi Omega[CR]- Minor PPI fixes
         </news>
-            <size>18192968</size>
-            <path>skin.arctic.zephyr.2.resurrection.mod/skin.arctic.zephyr.2.resurrection.mod-68.1.0.52.zip</path>
+            <size>17797163</size>
+            <path>skin.arctic.zephyr.2.resurrection.mod/skin.arctic.zephyr.2.resurrection.mod-68.1.0.53.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.1" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
+    <addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.2" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinvariables" version="2.1.33" />
@@ -835,6 +837,28 @@
                 <screenshot>resources/screenshot-10.jpg</screenshot>
             </assets>
             <news>
+[B]11.3.20.2[/B]
+- Updated to upstream Martian v3.20.2
+
+[B]3.20.2[/B]
+- Added support for MyAnimeList and Roger Ebert ratings
+- Changed background color in fanart view
+- Removed unused images / icons
+- Simplified LogOff power menu item
+- Use mono spaced font in system info window
+- Reverted mono font back to variable width for unicode fonts
+- Disable blur settings when background fanart is disabled
+- Support alphabet scrollbar in all view types
+- Fixed horizontal scrollbar to not show letter jump if scrollbar is not visible
+- Fixed fallback to default background when background fanart is disabled
+- Fixed missing tvshow poster image in poster-flix seasons view
+- Fixed visibility of indicators in Big List view
+- Fixed duplicate display of duration for music in Big List and Big Wide List
+- Fixed size of rating stars in banner view
+- Fixed visibility conditions of trailer button in video info
+- Fixed flickering of extended rating infos on ".." item
+- Fixed wrong default icons for clean library and event log shortcuts
+
 [B]11.3.20.1[/B]
 - Updated to upstream Martian v3.20.1
 
@@ -1057,8 +1081,8 @@
             <description lang="en_US">Arctic: Zephyr - Martian is based on the original Arctic: Zephyr skin, created by jurialmunkey and it's extension by beatmasterRS. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
             <description lang="fr">Arctic: Zephyr - Martian est basé sur le skin original Arctic: Zephyr, créé par jurialmunkey et son extension par beatmasterRS. Arctic se focalise sur le fait d'être simple, claire et minimaliste.</description>
             <description lang="zh_CN">Arctic: Zephyr - Martian 是基于 jurialmunkey 所创 Arctic 皮肤的第三个版本，以及 beatmasterRS 对该皮肤的扩展版本。Arctic 系列皮肤主打简洁、干净且简约的风格，并略带独特设计巧思。</description>
-            <size>51659412</size>
-            <path>skin.arctic.zephyr.martian.signde/skin.arctic.zephyr.martian.signde-11.3.20.1.zip</path>
+            <size>51629998</size>
+            <path>skin.arctic.zephyr.martian.signde/skin.arctic.zephyr.martian.signde-11.3.20.2.zip</path>
         </extension>
     </addon>
     <addon id="skin.arctic.zephyr.mod" version="65.3.0.3" name="Arctic: Zephyr - Reloaded (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, jamal2362">

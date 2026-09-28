@@ -1,4 +1,4 @@
-<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="71.3.3.2">
+<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="71.3.3.3">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.2.4" />
@@ -35,6 +35,7 @@
         <forum />
         <source />
         <news>
+            [I][COLOR FFFF9800]v71.3.3.3[/COLOR][/I][CR]- Updated to upstream v3.3.3.[CR][CR]
             [I][COLOR FFFF9800]v71.3.3.2[/COLOR][/I][CR]- Updated to upstream v3.3.2.[CR][CR]
             [I][COLOR FFFF9800]v71.3.3.0[/COLOR][/I][CR]- Updated to upstream v3.3.0.[CR][CR]
             [I][COLOR FFFF9800]v71.3.2.19[/COLOR][/I][CR]- Fixed missing codec information in the Video menu during playback.[CR][CR]

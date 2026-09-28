@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.1" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
+<addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.2" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
     <requires>
         <import addon="xbmc.gui" version="5.17.0"/>
         <import addon="script.skinvariables" version="2.1.33" />
@@ -32,6 +32,28 @@
             <screenshot>resources/screenshot-10.jpg</screenshot>
         </assets>
         <news>
+[B]11.3.20.2[/B]
+- Updated to upstream Martian v3.20.2
+
+[B]3.20.2[/B]
+- Added support for MyAnimeList and Roger Ebert ratings
+- Changed background color in fanart view
+- Removed unused images / icons
+- Simplified LogOff power menu item
+- Use mono spaced font in system info window
+- Reverted mono font back to variable width for unicode fonts
+- Disable blur settings when background fanart is disabled
+- Support alphabet scrollbar in all view types
+- Fixed horizontal scrollbar to not show letter jump if scrollbar is not visible
+- Fixed fallback to default background when background fanart is disabled
+- Fixed missing tvshow poster image in poster-flix seasons view
+- Fixed visibility of indicators in Big List view
+- Fixed duplicate display of duration for music in Big List and Big Wide List
+- Fixed size of rating stars in banner view
+- Fixed visibility conditions of trailer button in video info
+- Fixed flickering of extended rating infos on ".." item
+- Fixed wrong default icons for clean library and event log shortcuts
+
 [B]11.3.20.1[/B]
 - Updated to upstream Martian v3.20.1
 
