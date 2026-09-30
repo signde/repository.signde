@@ -20,6 +20,8 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 ## Changes
 
 - September 30th 2026
+    - TMDb Helper v6.17.4
+        - Updated to upstream v6.17.4
     - Arctic Fuse 2 v108.2.12.12
         - Moved colored media icons to the shared signde Media Flags addon
     - Arctic Fuse 3 v72.3.3.3
