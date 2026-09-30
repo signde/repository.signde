@@ -25,6 +25,9 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Validate repository publishing
+        run: python3 -m unittest discover -s tests
+
       - name: Build Pages site
         run: python3 _build_pages.py
 

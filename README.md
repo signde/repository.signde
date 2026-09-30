@@ -14,10 +14,24 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
             - Protocol: Web server directory (HTTPS)
             - Server address: signde.github.io
             - Remote path: repository.signde
-    - ZIP Install: https://signde.github.io/repository.signde/repository.signde-1.2.zip
+    - ZIP Install: https://signde.github.io/repository.signde/repository.signde-1.3.zip
 4. Install the skin from repo: signde repository > Look and Feel > Skins
 
 ## Changes
+
+- September 30th 2026
+    - Arctic Fuse 2 v108.2.12.12
+        - Moved colored media icons to the shared signde Media Flags addon
+    - Arctic Fuse 3 v72.3.3.3
+        - Moved colored media icons to the shared signde Media Flags addon
+    - Arctic Zephyr Reloaded v66.3.0.3
+        - Added signde media icons when colored icons are enabled
+    - signde Media Flags v1.0.0
+        - Added a shared collection of custom colored media icons for reuse in skins
+    - Studio Icons - Coloured v1.0.0028
+        - Updated to upstream v1.0.0028 with additional studio logos
+    - signde repository v1.3
+        - Added separate feeds for Kodi 21 (Omega) and Kodi 22 (Piers), preserving updates for existing installations.
 
 - September 28th 2026
     - Arctic Fuse 3 v71.3.3.3

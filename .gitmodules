@@ -85,3 +85,7 @@
 	path = addons/script.module.infotagger
 	url = https://github.com/jurialmunkey/script.module.infotagger.git
 	branch = main
+[submodule "addons/resource.images.mediaflags.signde"]
+	path = addons/resource.images.mediaflags.signde
+	url = https://github.com/signde/resource.images.mediaflags.signde.git
+	branch = main

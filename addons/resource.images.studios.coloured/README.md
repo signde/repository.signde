@@ -1,11 +1,11 @@
 ## <p align="center"><ins>Studio Icons - Coloured - Modded for KODI</ins> ( <ins>All Versions</ins> )</p>
 
 <p align="center">
-  <img width="20%" src="https://github.com/lynxstrike/lynxstrike.repo/blob/master/lynxstrike_addons/resource.images.studios.coloured/icon.png" alt="Studio Icons Logo">
+  <img width="20%" src="https://github.com/lynxstrike/lynxstrike.repo/blob/master/repo/resource.images.studios.coloured/icon.png" alt="Studio Icons Logo">
 </p>
 
 <p align="center">
-  <img width="80%" src="https://github.com/lynxstrike/lynxstrike.repo/blob/master/lynxstrike_addons/resource.images.studios.coloured/fanart.jpg" alt="Studio Icons Fanart">
+  <img width="80%" src="https://github.com/lynxstrike/lynxstrike.repo/blob/master/repo/resource.images.studios.coloured/fanart.jpg" alt="Studio Icons Fanart">
 </p>
 
 <p align="center"><strong>Color Studio Images.</strong></p>

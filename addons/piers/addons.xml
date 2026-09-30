@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons>
+    <addon id="repository.signde" name="signde repository" version="1.3" provider-name="signde">
+        <extension point="xbmc.addon.repository" name="signde repository">
+            <dir minversion="21.0.0" maxversion="21.89.999">
+                <info compressed="false">https://signde.github.io/repository.signde/addons/omega/addons.xml</info>
+                <checksum>https://signde.github.io/repository.signde/addons/omega/addons.xml.md5</checksum>
+                <datadir zip="true">https://signde.github.io/repository.signde/addons/zips/</datadir>
+            </dir>
+            <dir minversion="21.90.0" maxversion="22.89.999">
+                <info compressed="false">https://signde.github.io/repository.signde/addons/piers/addons.xml</info>
+                <checksum>https://signde.github.io/repository.signde/addons/piers/addons.xml.md5</checksum>
+                <datadir zip="true">https://signde.github.io/repository.signde/addons/piers/</datadir>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>signde repository</summary>
+            <description>Repository of skins for cpm/avdvplus/p3i based CoreELEC builds formerly maintained by jamal2362.</description>
+            <disclaimer />
+            <platform>all</platform>
+            <news>Added separate feeds for Kodi 21 (Omega) and Kodi 22 (Piers), preserving updates for existing installations.</news>
+            <assets>
+                <icon>resources/icon.png</icon>
+            </assets>
+            <size>3060573</size>
+            <path>repository.signde/repository.signde-1.3.zip</path>
+        </extension>
+    </addon>
+</addons>

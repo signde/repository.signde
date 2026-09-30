@@ -1,0 +1,32 @@
+{
+    "omega": [
+        "plugin.program.autocompletion",
+        "plugin.video.themoviedb.helper",
+        "plugin.video.tmdb.bingie.helper",
+        "repository.signde",
+        "resource.font.robotocjksc",
+        "resource.images.mediaflags.signde",
+        "resource.images.studios.coloured",
+        "script.bingie.helper",
+        "script.bingie.toolbox",
+        "script.bingie.widgets",
+        "script.module.bingie",
+        "script.module.infotagger",
+        "script.module.jurialmunkey",
+        "script.skinhelper",
+        "script.skinvariables",
+        "script.texturemaker",
+        "script.tinyppi",
+        "script.wikipedia",
+        "skin.aeon.nox.silvo",
+        "skin.arctic.fuse.2",
+        "skin.arctic.fuse.3",
+        "skin.arctic.horizon.2",
+        "skin.arctic.zephyr.2.resurrection.mod",
+        "skin.arctic.zephyr.martian",
+        "skin.arctic.zephyr.mod",
+        "skin.bingie",
+        "skin.confluence"
+    ],
+    "piers": []
+}

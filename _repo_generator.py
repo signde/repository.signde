@@ -12,10 +12,11 @@ import subprocess
 import tempfile
 import zipfile
 import html
+import json
 from xml.etree import ElementTree
 
 SCRIPT_VERSION = 1
-KODI_VERSIONS = ["addons"]
+KODI_VERSIONS = ["omega", "piers"]
 TEXTURE_PACKER = os.environ.get(
     "TEXTURE_PACKER",
     os.path.expanduser("~/.local/bin/TexturePacker"),
@@ -107,10 +108,12 @@ class Generator:
     the checked-out repo.
     """
 
-    def __init__(self, release, folders=None):
-        self.release_path = release
-        self.zips_path = os.path.join(self.release_path, "zips")
+    def __init__(self, source_path, folders=None, output_path=None, prune=None):
+        self.release_path = os.fspath(source_path)
+        self.zips_path = (os.fspath(output_path) if output_path is not None
+                          else os.path.join(self.release_path, "zips"))
         self.folders = self._resolve_folders(folders)
+        self.prune = self.folders is None if prune is None else prune
         addons_xml_path = os.path.join(self.zips_path, "addons.xml")
         md5_path = os.path.join(self.zips_path, "addons.xml.md5")
 
@@ -130,7 +133,7 @@ class Generator:
     def _resolve_folders(self, folders):
         """Validate optional add-on folders while preserving their order."""
 
-        if not folders:
+        if folders is None:
             return None
 
         resolved = []
@@ -144,6 +147,7 @@ class Generator:
             if (
                 os.path.isabs(folder)
                 or os.path.dirname(folder)
+                or folder in KODI_VERSIONS + ["zips"]
                 or not os.path.isdir(addon_path)
                 or not os.path.exists(os.path.join(addon_path, "addon.xml"))
             ):
@@ -155,11 +159,18 @@ class Generator:
         return resolved
 
     def _selected_paths(self, base_path):
-        """Return selected paths, or the whole base path for a full build."""
+        """Visit source folders only, never generated release directories."""
+        return [os.path.join(base_path, folder) for folder in self._source_folders()]
 
-        if self.folders is None:
-            return [base_path]
-        return [os.path.join(base_path, folder) for folder in self.folders]
+    def _source_folders(self):
+        if self.folders is not None:
+            return self.folders
+        return [
+            folder for folder in os.listdir(self.release_path)
+            if folder not in KODI_VERSIONS + ["zips"]
+            and not folder.startswith(".")
+            and os.path.isfile(os.path.join(self.release_path, folder, "addon.xml"))
+        ]
 
     def _remove_binaries(self):
         """
@@ -468,6 +479,10 @@ class Generator:
             '<a href="{0}">{0}</a><br>'.format(html.escape(f, quote=True))
             for f in links
         )
+        body += "\n" + "\n".join(
+            '<a href="addons/{0}/">{0}</a><br>'.format(release)
+            for release in KODI_VERSIONS
+        )
         self._save_file(
             "<!DOCTYPE html>\n<html><body>\n{}\n</body></html>\n".format(body),
             file=os.path.join(root_path, "index.html")
@@ -484,14 +499,7 @@ class Generator:
             addons_xml = ElementTree.parse(addons_xml_path)
             addons_root = addons_xml.getroot()
 
-        folders = self.folders or [
-            i
-            for i in os.listdir(self.release_path)
-            if os.path.isdir(os.path.join(self.release_path, i))
-            and i != "zips"
-            and not i.startswith(".")
-            and os.path.exists(os.path.join(self.release_path, i, "addon.xml"))
-        ]
+        folders = self._source_folders()
 
         addon_xpath = "addon[@id='{}']"
         active_ids = set()
@@ -532,7 +540,7 @@ class Generator:
                     )
                 )
 
-        if self.folders is None:
+        if self.prune:
             for addon_entry in list(addons_root.findall('addon')):
                 if addon_entry.get('id') not in active_ids:
                     addons_root.remove(addon_entry)
@@ -558,9 +566,8 @@ class Generator:
         Generates a new addons.xml.md5 file.
         """
         try:
-            m = hashlib.md5(
-                open(addons_xml_path, "r", encoding="utf-8").read().encode("utf-8")
-            ).hexdigest()
+            with open(addons_xml_path, "rb") as source:
+                m = hashlib.md5(source.read()).hexdigest()
             self._save_file(m, file=md5_path)
 
             return True
@@ -576,7 +583,8 @@ class Generator:
         Saves a file.
         """
         try:
-            open(file, "w").write(data)
+            with open(file, "w", encoding="utf-8") as output:
+                output.write(data)
         except Exception as e:
             print(
                 "An error occurred saving {}!\n{}".format(
@@ -584,9 +592,80 @@ class Generator:
                 )
             )
 
+def sync_repository_addon(root_path):
+    """Offer the same repository installer in every Kodi version's feed.
+
+    Its source lives in addons/repository.signde; Piers otherwise stays empty until add-ons have
+    been explicitly built for it. Never copy Omega skins or dependencies here.
+    """
+    source_zips = os.path.join(root_path, "addons", "omega")
+    source_index = ElementTree.parse(os.path.join(source_zips, "addons.xml"))
+    repository = source_index.getroot().find("addon[@id='repository.signde']")
+    if repository is None:
+        raise ValueError("Omega feed is missing the repository installer")
+    for release in KODI_VERSIONS:
+        if release == "omega":
+            continue
+        zips = os.path.join(root_path, "addons", release)
+        os.makedirs(zips, exist_ok=True)
+        shutil.copytree(
+            os.path.join(source_zips, "repository.signde"),
+            os.path.join(zips, "repository.signde"),
+            dirs_exist_ok=True,
+        )
+        # Only the package referenced by the current index should be retained.
+        package = repository.findtext("extension[@point='xbmc.addon.metadata']/path")
+        if not package:
+            raise ValueError("Repository installer has no package path")
+        for filename in os.listdir(os.path.join(zips, "repository.signde")):
+            if filename.endswith(".zip") and filename != os.path.basename(package):
+                os.remove(os.path.join(zips, "repository.signde", filename))
+        index_path = os.path.join(zips, "addons.xml")
+        tree = (ElementTree.parse(index_path) if os.path.exists(index_path)
+                else ElementTree.ElementTree(ElementTree.Element("addons")))
+        root = tree.getroot()
+        for old in root.findall("addon[@id='repository.signde']"):
+            root.remove(old)
+        root.append(ElementTree.fromstring(ElementTree.tostring(repository)))
+        root[:] = sorted(root, key=lambda addon: addon.get("id"))
+        ElementTree.indent(tree, space="    ")
+        tree.write(index_path, encoding="utf-8", xml_declaration=True)
+        with open(index_path, "rb") as index:
+            checksum = hashlib.md5(index.read()).hexdigest()
+        with open(index_path + ".md5", "w") as output:
+            output.write(checksum)
+
+
+def release_folders(root_path, release, folders=None):
+    """Resolve explicit source assignments without treating output as source."""
+    with open(os.path.join(root_path, "_repo_targets.json"), encoding="utf-8") as config:
+        targets = json.load(config)
+    assigned = targets[release]
+    if not isinstance(assigned, list) or any(not isinstance(f, str) for f in assigned):
+        raise ValueError("Release targets must be a list of source folder names")
+    if len(set(assigned)) != len(assigned):
+        raise ValueError("Duplicate source folders in {} targets".format(release))
+    if not folders:
+        return assigned
+    selected = []
+    for folder in folders:
+        folder = os.path.normpath(folder)
+        if folder.startswith("addons" + os.sep):
+            folder = folder[len("addons" + os.sep):]
+        if folder not in assigned:
+            raise ValueError("{} is not assigned to {}; update _repo_targets.json first".format(
+                folder, release))
+        selected.append(folder)
+    return selected
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Build all add-ons, or only the specified add-on folders."
+    )
+    parser.add_argument(
+        "--release", choices=KODI_VERSIONS, default="omega",
+        help="Kodi release to build (default: omega). Never mixes version feeds.",
     )
     parser.add_argument(
         "folders",
@@ -596,8 +675,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     try:
-        for release in [r for r in KODI_VERSIONS if os.path.exists(r)]:
-            print(release)
-            Generator(release, args.folders)
+        print(args.release)
+        folders = release_folders(os.getcwd(), args.release, args.folders)
+        Generator("addons", folders, os.path.join("addons", args.release),
+                  prune=not bool(args.folders))
+        sync_repository_addon(os.getcwd())
     except ValueError as error:
         parser.error(str(error))
