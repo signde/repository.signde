@@ -1,9 +1,9 @@
-<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="72.3.3.3">
+<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="72.3.3.5">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
-        <import addon="script.skinvariables" version="2.2.4" />
+        <import addon="script.skinvariables" version="2.2.6" />
         <import addon="script.texturemaker" version="0.2.9" />
-        <import addon="plugin.video.themoviedb.helper" version="6.16.0" />
+        <import addon="plugin.video.themoviedb.helper" version="6.17.5" />
         <import addon="resource.images.weathericons.white" version="0.0.1" />
         <import addon="resource.images.studios.coloured" version="0.0.1" />
         <import addon="resource.font.robotocjksc" version="0.0.3" />
@@ -36,6 +36,7 @@
         <forum />
         <source />
         <news>
+            [I][COLOR FFFF9800]v72.3.3.5[/COLOR][/I][CR]- Updated to upstream v3.3.5.[CR][CR]
             [I][COLOR FFFF9800]v72.3.3.3[/COLOR][/I][CR]- Moved colored media icons to the shared signde Media Flags addon.[CR][CR]
             [I][COLOR FFFF9800]v71.3.3.3[/COLOR][/I][CR]- Updated to upstream v3.3.3.[CR][CR]
             [I][COLOR FFFF9800]v71.3.3.2[/COLOR][/I][CR]- Updated to upstream v3.3.2.[CR][CR]
