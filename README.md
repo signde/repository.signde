@@ -20,7 +20,11 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 ## Changes
 
 - October 3rd 2026
-    - Arctic Fuse 3 v72.3.3.5
+    - Arctic Fuse 3 v73.3.3.5-piers
+        - Added new v22 Piers fork with optional signde colored media icons
+    - signde repository
+        - Added Arctic Fuse 3 and its supporting addons to the Piers feed
+    - Arctic Fuse 3 v72.3.3.5-omega
         - Updated to upstream v3.3.5
     - Skin Variables v2.2.6
         - Updated to upstream v2.2.6

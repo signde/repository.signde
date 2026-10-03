@@ -1,5 +1,53 @@
 <?xml version='1.0' encoding='utf-8'?>
 <addons>
+    <addon id="plugin.video.themoviedb.helper" version="6.17.5" name="TMDb Helper" provider-name="jurialmunkey">
+        <requires>
+            <import addon="xbmc.python" version="3.0.1" />
+            <import addon="script.module.requests" version="2.9.1" />
+            <import addon="script.module.pil" version="1.1.7" />
+            <import addon="script.module.addon.signals" version="0.0.6" />
+            <import addon="script.module.jurialmunkey" version="0.2.35" />
+            <import addon="script.module.infotagger" version="0.0.9" />
+            <import addon="script.module.qrcode" version="6.1.0" />
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="resources/plugin.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.python.script" library="resources/script.py" />
+        <extension point="xbmc.service" library="resources/service.py" />
+        <extension point="xbmc.python.module" library="resources/modules" />
+        <extension point="xbmc.addon.metadata">
+            <reuselanguageinvoker>false</reuselanguageinvoker>
+            <summary lang="de_DE">TMDb Helfer</summary>
+            <summary lang="en_GB">TMDb Helper</summary>
+            <summary lang="es_ES">Asistente TMDb</summary>
+            <summary lang="zh_CN">TMDb 助手</summary>
+            <description lang="de_DE">TMDb Helper liefert Details über Filme, Fernsehsendungen und Schauspieler aus TMDb. Benutzer können auf eine Vielzahl von Listen aus TMDb TVDb MDbList und Trakt zugreifen.</description>
+            <description lang="en_GB">TMDb Helper provides details about movies, tvshows and actors from TMDb. Users can access a variety of lists from TMDb TVDb MDbList and Trakt.</description>
+            <description lang="es_ES">TMDb Helper proporciona detalles sobre películas, series y actores de TMDb. Los usuarios pueden acceder a una variedad de listas de TMDb, TVDb, MDbList y Trakt.</description>
+            <description lang="pl_PL">TMDb Helper dostarcza szczegółowych informacji o filmach, serialach i aktorach z serwisu TMDb. Użytkownicy mają dostęp do szeregu list z serwisów TMDb, TVDb, MDbList i Trakt.</description>
+            <description lang="sv_SE">TMDb Helper tillhandahåller information om filmer, tv-serier och skådespelare från TMDb. Användare kan få tillgång till en mängd olika listor från TMDb, TVDb, MDbList och Trakt.</description>
+            <description lang="zh_CN">TMDb 助手从 TMDb（影视数据库） 获取电影、电视剧及演员的详细信息。用户可访问来自 TMDb、TVDb、MDbList 和 Trakt 的各类影视列表。</description>
+            <disclaimer lang="de_DE">Daten bereitgestellt von TMDb TVDb MDbList OMDb FanartTV und Trakt. Einige der Informationen werden von TheTVDB.com bereitgestellt. Bitte erwäge sie zu unterstützen. https://thetvdb.com/subscribe</disclaimer>
+            <disclaimer lang="en_GB">Data provided by TMDb TVDb MDbList OMDb FanartTV and Trakt. Some of the information is provided by TheTVDB.com. Please consider supporting them. https://thetvdb.com/subscribe</disclaimer>
+            <disclaimer lang="es_ES">Datos proporcionados por TMDb, TVDb, MDbList, OMDb, FanartTV y Trakt. Parte de la información es suministrada por TheTVDB.com. Por favor, considera apoyarles. https://thetvdb.com/subscribe</disclaimer>
+            <disclaimer lang="pl_PL">Dane dostarczane przez TMDb TVDb MDbList OMDb FanartTV i Trakt. Niektóre informacje pochodzą z serwisu TheTVDB.com. Prosimy o rozważenie wsparcia tych serwisów. https://thetvdb.com/subscribe</disclaimer>
+            <disclaimer lang="sv_SE">Data tillhandahållen av TMDb TVDb MDbList OMDb FanartTV och Trakt. En del av informationen tillhandahålls av TheTVDB.com. Stöd dem gärna. https://thetvdb.com/subscribe</disclaimer>
+            <disclaimer lang="zh_CN">数据由 TMDb、TVDb、MDbList、OMDb、FanartTV 和 Trakt 提供。部分信息由 TheTVDB.com 提供，建议您支持他们。订阅链接：https://thetvdb.com/subscribe</disclaimer>
+            <license>GPL-3.0-or-later</license>
+            <website>https://github.com/jurialmunkey/plugin.video.themoviedb.helper</website>
+            <forum>https://forum.kodi.tv/showthread.php?tid=345847</forum>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+                <clearlogo>clearlogo.png</clearlogo>
+                <screenshot>resources/screenshot-01.jpg</screenshot>
+                <screenshot>resources/screenshot-02.jpg</screenshot>
+            </assets>
+            <size>4307995</size>
+            <path>plugin.video.themoviedb.helper/plugin.video.themoviedb.helper-6.17.5.zip</path>
+        </extension>
+    </addon>
     <addon id="repository.signde" name="signde repository" version="1.3" provider-name="signde">
         <extension point="xbmc.addon.repository" name="signde repository">
             <dir minversion="21.0.0" maxversion="21.89.999">
@@ -24,6 +72,208 @@
             </assets>
             <size>3060573</size>
             <path>repository.signde/repository.signde-1.3.zip</path>
+        </extension>
+    </addon>
+    <addon id="resource.font.robotocjksc" name="Roboto CJKSC" version="0.0.3" provider-name="jurialmunkey">
+        <requires>
+            <import addon="kodi.resource" version="1.0.0" />
+        </requires>
+        <extension point="kodi.resource.font" compile="false" />
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Roboto CJKSC fonts</summary>
+            <description lang="en_GB" />
+            <language />
+            <platform>all</platform>
+            <license>Apache-2.0</license>
+            <forum />
+            <email />
+            <source />
+            <news />
+            <disclaimer />
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+            <size>51599444</size>
+            <path>resource.font.robotocjksc/resource.font.robotocjksc-0.0.3.zip</path>
+        </extension>
+    </addon>
+    <addon id="resource.images.mediaflags.signde" version="1.0.0" name="signde Media Flags" provider-name="signde">
+        <requires>
+            <import addon="kodi.resource" version="1.0.0" />
+        </requires>
+        <extension point="kodi.resource.images" compile="false" type="mediaflags" />
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Shared colored media flags for signde skins</summary>
+            <description lang="en_GB">Colored audio codec, video codec, source, HDR, resolution, aspect ratio, and channel-layout icons shared by signde skins.</description>
+            <license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0</license>
+            <platform>all</platform>
+            <news>Initial release of shared custom colored media icons for reuse in skins.</news>
+            <size>1120311</size>
+            <path>resource.images.mediaflags.signde/resource.images.mediaflags.signde-1.0.0.zip</path>
+        </extension>
+    </addon>
+    <addon id="resource.images.studios.coloured" name="Studio Icons - Coloured - Modded" version="1.0.0028" provider-name="lynxstrike">
+        <extension point="kodi.resource.images" compile="false" type="studios" />
+        <requires>
+            <import addon="kodi.resource" version="1.0.0" />
+        </requires>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">Studio Icons – A clean, unified pack that makes your Kodi library shine</summary>
+            <description lang="en">Bring your Kodi library to life with Color Studio Icons – Modded. This addon delivers a full suite of studio logos in bold, uniform designs, ensuring your media collection looks sharp, consistent, and up-to-date across all versions of Kodi.</description>
+            <platform>linux android osx</platform>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+            <news>
+            v1.0.0028 (2026-09-29)
+            - Updated to upstream v1.0.0028 with additional studio logos
+
+            v1.0.0027 (2026-08-28)
+            - Updated to upstream v1.0.0027
+            - Updated studio logo collection
+            - Enabled macOS compatibility for the XBT distribution
+        </news>
+            <size>67065715</size>
+            <path>resource.images.studios.coloured/resource.images.studios.coloured-1.0.0028.zip</path>
+        </extension>
+    </addon>
+    <addon id="script.module.infotagger" name="InfoTagger" provider-name="jurialmunkey" version="0.0.9">
+        <requires>
+            <import addon="xbmc.python" version="3.0.1" />
+        </requires>
+        <extension point="xbmc.python.module" library="resources/modules" />
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary lang="en_GB">Python wrapper for setInfo on Nexus InfoTags</summary>
+            <description lang="en_GB">Python wrapper for setInfo on Nexus InfoTags</description>
+            <license>GPL-3.0-or-later</license>
+            <website>https://github.com/jurialmunkey/script.module.infotagger</website>
+            <source>https://github.com/jurialmunkey/script.module.infotagger</source>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+            <size>23148</size>
+            <path>script.module.infotagger/script.module.infotagger-0.0.9.zip</path>
+        </extension>
+    </addon>
+    <addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.35">
+        <requires>
+            <import addon="xbmc.python" version="3.0.1" />
+            <import addon="script.module.requests" version="2.9.1" />
+            <import addon="script.module.infotagger" version="0.0.5" />
+        </requires>
+        <extension point="xbmc.python.module" library="resources/modules" />
+        <extension point="xbmc.addon.metadata">
+            <description lang="en_GB">Common code required by TMDbHelper and other related jurialmunkey add-ons</description>
+            <description lang="zh_CN">TMDb 助手及其他相关 jurialmunkey 插件所需的通用代码</description>
+            <license>GPL-3.0-or-later</license>
+            <website>https://github.com/jurialmunkey/script.module.jurialmunkey</website>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+            <size>55792</size>
+            <path>script.module.jurialmunkey/script.module.jurialmunkey-0.2.35.zip</path>
+        </extension>
+    </addon>
+    <addon id="script.skinvariables" version="2.2.6" name="Skin Variables" provider-name="jurialmunkey">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.jurialmunkey" version="0.2.28" />
+            <import addon="script.module.infotagger" version="0.0.5" />
+        </requires>
+        <extension point="xbmc.python.script" library="script.py" />
+        <extension point="xbmc.python.pluginsource" library="plugin.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using a template</summary>
+            <summary lang="zh_CN">Skin Variables 帮助皮肤设计者使用模板为多个容器和列表项构建变量及表达式</summary>
+            <summary lang="fr_FR">Skin Variables aide les skinners à créer des variables et des expressions pour plusieurs conteneurs et listes à l'aide d'un modèle</summary>
+            <summary lang="sv_SE">Skin Variables hjälper de som bygger skal att skapa variabler och uttryck för flera behållare och listobjekt med hjälp av en mall</summary>
+            <description lang="en_GB">Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using a template</description>
+            <description lang="zh_CN">Skin Variables 帮助皮肤设计者使用模板为多个容器和列表项构建变量及表达式</description>
+            <description lang="fr_FR">Skin Variables aide les skinners à créer des variables et des expressions pour plusieurs conteneurs et listes à l'aide d'un modèle</description>
+            <description lang="sv_SE">Skin Variables hjälper de som bygger skal att skapa variabler och uttryck för flera behållare och listobjekt med hjälp av en mall</description>
+            <disclaimer lang="en_GB">For skinners</disclaimer>
+            <disclaimer lang="zh_CN">适用于皮肤设计者</disclaimer>
+            <disclaimer lang="fr_FR">Pour les skinners</disclaimer>
+            <disclaimer lang="sv_SE">För de som bygger skal</disclaimer>
+            <license>GPL-3.0-or-later</license>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+            <size>231985</size>
+            <path>script.skinvariables/script.skinvariables-2.2.6.zip</path>
+        </extension>
+    </addon>
+    <addon id="script.texturemaker" version="0.2.11" name="Texture Maker" provider-name="jurialmunkey">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.pil" version="1.1.7" />
+            <import addon="script.module.jurialmunkey" version="0.2.28" />
+        </requires>
+        <extension point="xbmc.python.script" library="script.py" />
+        <extension point="xbmc.python.pluginsource" library="plugin.py">
+            <provides>image</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Texture Maker helps skinners build gradient based textures</summary>
+            <description lang="en_GB">Texture Maker helps skinners build gradient based textures</description>
+            <disclaimer lang="en_GB">For skinners</disclaimer>
+            <license>GPL-3.0-or-later</license>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+            <size>171850</size>
+            <path>script.texturemaker/script.texturemaker-0.2.11.zip</path>
+        </extension>
+    </addon>
+    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (signde)" provider-name="jurialmunkey, signde" version="73.3.3.5">
+        <requires>
+            <import addon="xbmc.gui" version="5.17.0" />
+            <import addon="script.skinvariables" version="2.2.6" />
+            <import addon="script.texturemaker" version="0.2.9" />
+            <import addon="plugin.video.themoviedb.helper" version="6.17.5" />
+            <import addon="resource.images.weathericons.white" version="0.0.1" />
+            <import addon="resource.images.studios.coloured" version="0.0.1" />
+            <import addon="resource.font.robotocjksc" version="0.0.3" />
+            <import addon="resource.images.mediaflags.signde" version="1.0.0" />
+        </requires>
+        <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+            <res aspect="16:9" default="true" folder="1080i" width="1920" height="1080" />
+            <res aspect="3:2" default="false" folder="1080i" width="1620" height="1080" />
+            <res aspect="4:3" default="false" folder="1080i" width="1440" height="1080" />
+            <res aspect="16:10" default="false" folder="1080i" width="1728" height="1080" />
+            <res aspect="17:9" default="false" folder="1080i" width="2040" height="1080" />
+            <res aspect="21:9" default="false" folder="1080i" width="2520" height="1080" />
+            <res aspect="19.5:9" default="false" folder="1080i" width="2340" height="1080" />
+            <res aspect="18:9" default="false" folder="1080i" width="2160" height="1080" />
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">A minimal row based skin</summary>
+            <summary lang="es">Una skin minimalista de diseño horizontal</summary>
+            <summary lang="de">Ein minimalistisches, zeilenbasiertes Skin</summary>
+            <summary lang="zh">简约行式布局皮肤</summary>
+            <summary lang="ar">سكن مخفف بقوائم افقية</summary>
+            <description lang="en">Arctic Fuse 3 is a minimal row based skin with customisable widgets</description>
+            <description lang="es">Arctic Fuse 3 es una skin minimalista de diseño horizontal con widgets personalizables</description>
+            <description lang="de">Arctic Fuse 3 ist ein minimalistisches, zeilenbasiertes Skin mit anpassbaren Widgets</description>
+            <description lang="zh">Arctic Fuse 3 是一款采用简约行式布局的 Kodi 皮肤，支持小组件自定义功能</description>
+            <description lang="ar">Arctic Fuse 3 سكن مخفف بقوائم افقية وبامكانية تخصيص الاختصارات</description>
+            <platform>all</platform>
+            <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+            <forum />
+            <source />
+            <news>[I][COLOR FFFF9800]v73.3.3.5-piers[/COLOR][/I][CR]- Added optional signde colored media icons for Kodi 22.</news>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+            <size>55150459</size>
+            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-73.3.3.5.zip</path>
         </extension>
     </addon>
 </addons>

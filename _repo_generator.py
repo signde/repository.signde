@@ -35,6 +35,7 @@ IGNORE = [
 # trees, so replacing a bundle from only the loose files would discard assets.
 PRESERVE_TEXTURE_BUNDLES = {
     "skin.arctic.fuse.2",
+    "skin.arctic.fuse.3.piers",
     "skin.arctic.zephyr.2.resurrection.mod",
     "skin.arctic.zephyr.mod",
     "skin.bingie",
@@ -45,6 +46,7 @@ PRESERVE_TEXTURE_BUNDLES = {
 # and include the newer loose media alongside it.
 INCLUDE_LOOSE_MEDIA_WITH_TEXTURE_BUNDLE = {
     "skin.arctic.fuse.2",
+    "skin.arctic.fuse.3.piers",
     "skin.arctic.zephyr.2.resurrection.mod",
     "skin.arctic.zephyr.mod",
     "skin.bingie",

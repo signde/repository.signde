@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="resource.images.mediaflags.signde" version="1.0.0" name="signde Media Flags" provider-name="signde">
+    <requires>
+        <import addon="kodi.resource" version="1.0.0" />
+    </requires>
+    <extension point="kodi.resource.images" compile="false" type="mediaflags" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Shared colored media flags for signde skins</summary>
+        <description lang="en_GB">Colored audio codec, video codec, source, HDR, resolution, aspect ratio, and channel-layout icons shared by signde skins.</description>
+        <license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0</license>
+        <platform>all</platform>
+        <news>Initial release of shared custom colored media icons for reuse in skins.</news>
+    </extension>
+</addon>

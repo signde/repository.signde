@@ -89,3 +89,7 @@
 	path = addons/resource.images.mediaflags.signde
 	url = https://github.com/signde/resource.images.mediaflags.signde.git
 	branch = main
+[submodule "addons/skin.arctic.fuse.3.piers"]
+	path = addons/skin.arctic.fuse.3.piers
+	url = https://github.com/signde/skin.arctic.fuse.3.git
+	branch = piers

@@ -28,5 +28,15 @@
         "skin.bingie",
         "skin.confluence"
     ],
-    "piers": []
+    "piers": [
+        "plugin.video.themoviedb.helper",
+        "resource.font.robotocjksc",
+        "resource.images.mediaflags.signde",
+        "resource.images.studios.coloured",
+        "script.module.infotagger",
+        "script.module.jurialmunkey",
+        "script.skinvariables",
+        "script.texturemaker",
+        "skin.arctic.fuse.3.piers"
+    ]
 }
