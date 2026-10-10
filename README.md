@@ -19,6 +19,14 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 
 ## Changes
 
+- October 10th 2026
+    - Arctic Fuse 3 v72.3.3.9-omega
+        - Updated to upstream v3.3.9
+    - Arctic Fuse 3 v73.3.3.9-piers
+        - Updated to upstream v3.3.9
+    - Arctic Zephyr Martian v11.3.20.3
+        - Updated to upstream Martian v3.20.3
+
 - October 8th 2026
     - Arctic Fuse 3 v72.3.3.8-omega
         - Updated to upstream v3.3.8

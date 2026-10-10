@@ -1,4 +1,4 @@
-<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (signde)" provider-name="jurialmunkey, signde" version="73.3.3.8">
+<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (signde)" provider-name="jurialmunkey, signde" version="73.3.3.9">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.2.8" />
@@ -34,7 +34,8 @@
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <forum />
         <source />
-        <news>[I][COLOR FFFF9800]v73.3.3.8-piers[/COLOR][/I][CR]- Updated to upstream v3.3.8.[CR][CR][I][COLOR FFFF9800]v73.3.3.7-piers[/COLOR][/I][CR]- Updated to upstream v3.3.7.[CR][CR][I][COLOR FFFF9800]v73.3.3.5-piers[/COLOR][/I][CR]- Added optional signde colored media icons for Kodi 22.</news>
+        <news>
+            [I][COLOR FFFF9800]v73.3.3.9-piers[/COLOR][/I][CR]- Updated to upstream v3.3.9.[CR][CR][I][COLOR FFFF9800]v73.3.3.8-piers[/COLOR][/I][CR]- Updated to upstream v3.3.8.[CR][CR][I][COLOR FFFF9800]v73.3.3.7-piers[/COLOR][/I][CR]- Updated to upstream v3.3.7.[CR][CR][I][COLOR FFFF9800]v73.3.3.5-piers[/COLOR][/I][CR]- Added optional signde colored media icons for Kodi 22.</news>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>

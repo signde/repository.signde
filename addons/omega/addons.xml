@@ -645,7 +645,7 @@
             <path>skin.arctic.fuse.2/skin.arctic.fuse.2-108.2.12.12.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="72.3.3.8">
+    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="72.3.3.9">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinvariables" version="2.2.8" />
@@ -683,6 +683,7 @@
             <forum />
             <source />
             <news>
+            [I][COLOR FFFF9800]v72.3.3.9-omega[/COLOR][/I][CR]- Updated to upstream v3.3.9.[CR][CR]
             [I][COLOR FFFF9800]v72.3.3.8-omega[/COLOR][/I][CR]- Updated to upstream v3.3.8.[CR][CR]
             [I][COLOR FFFF9800]v72.3.3.7-omega[/COLOR][/I][CR]- Updated to upstream v3.3.7.[CR][CR]
             [I][COLOR FFFF9800]v72.3.3.5[/COLOR][/I][CR]- Updated to upstream v3.3.5.[CR][CR]
@@ -721,8 +722,8 @@
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
             </assets>
-            <size>48622153</size>
-            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-72.3.3.8.zip</path>
+            <size>48625067</size>
+            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-72.3.3.9.zip</path>
         </extension>
     </addon>
     <addon id="skin.arctic.horizon.2" name="Arctic Horizon 2 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="64.0.8.30">
@@ -835,7 +836,7 @@
             <path>skin.arctic.zephyr.2.resurrection.mod/skin.arctic.zephyr.2.resurrection.mod-68.1.0.53.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.2" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
+    <addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.3" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinvariables" version="2.1.33" />
@@ -868,6 +869,28 @@
                 <screenshot>resources/screenshot-10.jpg</screenshot>
             </assets>
             <news>
+[B]11.3.20.3[/B]
+- Updated to upstream Martian v3.20.3
+
+[B]3.20.3[/B]
+- Added option to disable TMDbHelper
+- Display disc number in music OSD and extended now playing info
+- For vertical home menu styles with icons only the submenu now opens as popup
+- Added TMDbHelper movie/tvshow and Skin Info Service seasonal widgets
+- Replaced skin provided translations for widget names with Skin Info translations 
+- Show unwatched indicators only for local content
+- Reduced padding of dark theme OSD
+- Added PVR Timeshift support to seek bar (thx @pinkflozd) 
+- Display backend channel count in home header for PVR radio menu item
+- Allow selection of image folder as fallback in music visualisation
+- Fixed fallback to default image in music visualisation
+- Fixed accidental display of unwatched indicators on cast list
+- Fixed scrollbars in square list and wall views
+- Fixed fullscreen info in music info dialog 
+- Fixed duplicate display of duration in music info dialog
+- Fixed slide condition for hidden lists in video info dialog
+- Fixed display of star with numeric ratings for ratings less than 2
+  
 [B]11.3.20.2[/B]
 - Updated to upstream Martian v3.20.2
 
@@ -1112,8 +1135,8 @@
             <description lang="en_US">Arctic: Zephyr - Martian is based on the original Arctic: Zephyr skin, created by jurialmunkey and it's extension by beatmasterRS. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
             <description lang="fr">Arctic: Zephyr - Martian est basé sur le skin original Arctic: Zephyr, créé par jurialmunkey et son extension par beatmasterRS. Arctic se focalise sur le fait d'être simple, claire et minimaliste.</description>
             <description lang="zh_CN">Arctic: Zephyr - Martian 是基于 jurialmunkey 所创 Arctic 皮肤的第三个版本，以及 beatmasterRS 对该皮肤的扩展版本。Arctic 系列皮肤主打简洁、干净且简约的风格，并略带独特设计巧思。</description>
-            <size>51629998</size>
-            <path>skin.arctic.zephyr.martian.signde/skin.arctic.zephyr.martian.signde-11.3.20.2.zip</path>
+            <size>51631560</size>
+            <path>skin.arctic.zephyr.martian.signde/skin.arctic.zephyr.martian.signde-11.3.20.3.zip</path>
         </extension>
     </addon>
     <addon id="skin.arctic.zephyr.mod" version="66.3.0.3" name="Arctic: Zephyr - Reloaded (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, jamal2362">

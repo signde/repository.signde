@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.2" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
+<addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.3" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
     <requires>
         <import addon="xbmc.gui" version="5.17.0"/>
         <import addon="script.skinvariables" version="2.1.33" />
@@ -32,6 +32,28 @@
             <screenshot>resources/screenshot-10.jpg</screenshot>
         </assets>
         <news>
+[B]11.3.20.3[/B]
+- Updated to upstream Martian v3.20.3
+
+[B]3.20.3[/B]
+- Added option to disable TMDbHelper
+- Display disc number in music OSD and extended now playing info
+- For vertical home menu styles with icons only the submenu now opens as popup
+- Added TMDbHelper movie/tvshow and Skin Info Service seasonal widgets
+- Replaced skin provided translations for widget names with Skin Info translations 
+- Show unwatched indicators only for local content
+- Reduced padding of dark theme OSD
+- Added PVR Timeshift support to seek bar (thx @pinkflozd) 
+- Display backend channel count in home header for PVR radio menu item
+- Allow selection of image folder as fallback in music visualisation
+- Fixed fallback to default image in music visualisation
+- Fixed accidental display of unwatched indicators on cast list
+- Fixed scrollbars in square list and wall views
+- Fixed fullscreen info in music info dialog 
+- Fixed duplicate display of duration in music info dialog
+- Fixed slide condition for hidden lists in video info dialog
+- Fixed display of star with numeric ratings for ratings less than 2
+  
 [B]11.3.20.2[/B]
 - Updated to upstream Martian v3.20.2
 
