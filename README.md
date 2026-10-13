@@ -19,6 +19,16 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 
 ## Changes
 
+- October 13th 2026
+    - Arctic Fuse 3 v72.3.3.12-omega
+        - Updated to upstream v3.3.12
+    - Arctic Fuse 3 v73.3.3.12-piers
+        - Updated to upstream v3.3.12
+    - Skin Variables v2.2.9
+        - Updated to upstream v2.2.9
+    - TMDb Helper v6.17.9
+        - Updated to upstream v6.17.9
+
 - October 10th 2026
     - Arctic Fuse 3 v72.3.3.9-omega
         - Updated to upstream v3.3.9
