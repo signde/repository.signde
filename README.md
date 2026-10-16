@@ -19,6 +19,10 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 
 ## Changes
 
+- October 16th 2026
+    - Arctic Zephyr 2 Resurrection v68.1.0.54
+        - Updated to upstream v1.0.54
+
 - October 13th 2026
     - Arctic Fuse 3 v72.3.3.12-omega
         - Updated to upstream v3.3.12

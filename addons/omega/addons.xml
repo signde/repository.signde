@@ -764,7 +764,7 @@
             <path>skin.arctic.horizon.2/skin.arctic.horizon.2-64.0.8.30.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection (avdvplus/p3i)" provider-name="jurialmunkey, pkscout, heppen, jamal2362" version="68.1.0.53">
+    <addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection (avdvplus/p3i)" provider-name="jurialmunkey, pkscout, heppen, jamal2362" version="68.1.0.54">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinshortcuts" />
@@ -816,6 +816,7 @@
                 <screenshot>resources/screenshot-06.jpg</screenshot>
             </assets>
             <news>
+            [I][COLOR FFFF9800]v68.1.0.54[/COLOR][/I][CR]- Updated to upstream v1.0.54.[CR][CR]
             [I][COLOR FFFF9800]v68.1.0.53[/COLOR][/I][CR]- Updated to upstream v1.0.53.[CR][CR]
             [I][COLOR FFFF9800]v68.1.0.52[/COLOR][/I][CR]- Delegated Player Process Info and playback codec badges to signde PPI[CR]- Added Profile 7 MEL/FEL media flags
 
@@ -833,8 +834,8 @@
 
             [I][COLOR FFFF9800]v61.1.0.51[/COLOR][/I][CR]- Restored p3i support on Kodi Omega[CR]- Minor PPI fixes
         </news>
-            <size>17797163</size>
-            <path>skin.arctic.zephyr.2.resurrection.mod/skin.arctic.zephyr.2.resurrection.mod-68.1.0.53.zip</path>
+            <size>17315573</size>
+            <path>skin.arctic.zephyr.2.resurrection.mod/skin.arctic.zephyr.2.resurrection.mod-68.1.0.54.zip</path>
         </extension>
     </addon>
     <addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.3" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
