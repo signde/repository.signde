@@ -97,6 +97,19 @@
             <path>resource.font.robotocjksc/resource.font.robotocjksc-0.0.3.zip</path>
         </extension>
     </addon>
+    <addon id="resource.images.arctic.splash" name="Arctic Splash" version="1.0.0" provider-name="jurialmunkey">
+        <requires>
+            <import addon="kodi.resource" version="1.0.0" />
+        </requires>
+        <extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Seasonal layered splash artwork for Arctic</summary>
+            <description lang="en_GB">Mount Fuji and lake splash artwork with nine composited layers, four seasons, five weather patterns, and 24 hourly states. Includes high quality WebP artwork with lossless transparency and PNG overlays.</description>
+            <platform>all</platform>
+            <size>103304181</size>
+            <path>resource.images.arctic.splash/resource.images.arctic.splash-1.0.0.zip</path>
+        </extension>
+    </addon>
     <addon id="resource.images.mediaflags.signde" version="1.0.0" name="signde Media Flags" provider-name="signde">
         <requires>
             <import addon="kodi.resource" version="1.0.0" />
@@ -231,13 +244,14 @@
             <path>script.texturemaker/script.texturemaker-0.2.11.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (signde)" provider-name="jurialmunkey, signde" version="73.3.3.12">
+    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (signde)" provider-name="jurialmunkey, signde" version="73.3.4.1">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinvariables" version="2.2.9" />
             <import addon="script.texturemaker" version="0.2.9" />
             <import addon="plugin.video.themoviedb.helper" version="6.17.9" />
             <import addon="resource.images.weathericons.white" version="0.0.1" />
+            <import addon="resource.images.arctic.splash" version="1.0.0" />
             <import addon="resource.images.studios.coloured" version="0.0.1" />
             <import addon="resource.font.robotocjksc" version="0.0.3" />
             <import addon="resource.images.mediaflags.signde" version="1.0.0" />
@@ -268,14 +282,15 @@
             <forum />
             <source />
             <news>
+            [I][COLOR FFFF9800]v73.3.4.1-piers[/COLOR][/I][CR]- Updated to upstream v3.4.1.[CR]- Improved recovery after updating the active skin.[CR][CR]
             [I][COLOR FFFF9800]v73.3.3.12-piers[/COLOR][/I][CR]- Updated to upstream v3.3.12.[CR][CR]
             [I][COLOR FFFF9800]v73.3.3.9-piers[/COLOR][/I][CR]- Updated to upstream v3.3.9.[CR][CR][I][COLOR FFFF9800]v73.3.3.8-piers[/COLOR][/I][CR]- Updated to upstream v3.3.8.[CR][CR][I][COLOR FFFF9800]v73.3.3.7-piers[/COLOR][/I][CR]- Updated to upstream v3.3.7.[CR][CR][I][COLOR FFFF9800]v73.3.3.5-piers[/COLOR][/I][CR]- Added optional signde colored media icons for Kodi 22.</news>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
             </assets>
-            <size>58484647</size>
-            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-73.3.3.12.zip</path>
+            <size>62338940</size>
+            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-73.3.4.1.zip</path>
         </extension>
     </addon>
 </addons>

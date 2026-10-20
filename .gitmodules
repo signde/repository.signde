@@ -93,3 +93,6 @@
 	path = addons/skin.arctic.fuse.3.piers
 	url = https://github.com/signde/skin.arctic.fuse.3.git
 	branch = piers
+[submodule "addons/resource.images.arctic.splash"]
+	path = addons/resource.images.arctic.splash
+	url = https://github.com/jurialmunkey/resource.images.arctic.splash.git

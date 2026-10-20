@@ -5,6 +5,7 @@
         "plugin.video.tmdb.bingie.helper",
         "repository.signde",
         "resource.font.robotocjksc",
+        "resource.images.arctic.splash",
         "resource.images.mediaflags.signde",
         "resource.images.studios.coloured",
         "script.bingie.helper",
@@ -31,6 +32,7 @@
     "piers": [
         "plugin.video.themoviedb.helper",
         "resource.font.robotocjksc",
+        "resource.images.arctic.splash",
         "resource.images.mediaflags.signde",
         "resource.images.studios.coloured",
         "script.module.infotagger",
