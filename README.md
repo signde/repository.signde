@@ -19,6 +19,20 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 
 ## Changes
 
+- October 22nd 2026
+    - Arctic Fuse 3 v72.3.4.6-omega
+        - Updated to upstream v3.4.6
+    - Arctic Fuse 3 v73.3.4.6-piers
+        - Updated to upstream v3.4.6
+    - TMDb Helper v6.18.1
+        - Updated to upstream v6.18.1
+    - Arctic Splash v1.0.7
+        - Updated seasonal splash artwork
+    - Arctic Weather v1.0.4
+        - Added weather artwork for Arctic Fuse 3
+    - InfoTagger v0.1.0
+        - Updated to upstream v0.1.0
+
 - October 20th 2026
     - Arctic Fuse 3 v72.3.4.1-omega
         - Updated to upstream v3.4.1

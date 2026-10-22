@@ -27,14 +27,14 @@
             <path>plugin.program.autocompletion/plugin.program.autocompletion-2.1.3.zip</path>
         </extension>
     </addon>
-    <addon id="plugin.video.themoviedb.helper" version="6.17.9" name="TMDb Helper" provider-name="jurialmunkey">
+    <addon id="plugin.video.themoviedb.helper" version="6.18.1" name="TMDb Helper" provider-name="jurialmunkey">
         <requires>
             <import addon="xbmc.python" version="3.0.1" />
             <import addon="script.module.requests" version="2.9.1" />
             <import addon="script.module.pil" version="1.1.7" />
             <import addon="script.module.addon.signals" version="0.0.6" />
             <import addon="script.module.jurialmunkey" version="0.2.35" />
-            <import addon="script.module.infotagger" version="0.0.9" />
+            <import addon="script.module.infotagger" version="0.1.0" />
             <import addon="script.module.qrcode" version="6.1.0" />
         </requires>
         <extension point="xbmc.python.pluginsource" library="resources/plugin.py">
@@ -71,8 +71,8 @@
                 <screenshot>resources/screenshot-01.jpg</screenshot>
                 <screenshot>resources/screenshot-02.jpg</screenshot>
             </assets>
-            <size>4324726</size>
-            <path>plugin.video.themoviedb.helper/plugin.video.themoviedb.helper-6.17.9.zip</path>
+            <size>4309085</size>
+            <path>plugin.video.themoviedb.helper/plugin.video.themoviedb.helper-6.18.1.zip</path>
         </extension>
     </addon>
     <addon id="plugin.video.tmdb.bingie.helper" version="2.1.0.3" name="TMDb Bingie Helper" provider-name="jurialmunkey,matke">
@@ -161,17 +161,30 @@
             <path>resource.font.robotocjksc/resource.font.robotocjksc-0.0.3.zip</path>
         </extension>
     </addon>
-    <addon id="resource.images.arctic.splash" name="Arctic Splash" version="1.0.0" provider-name="jurialmunkey">
+    <addon id="resource.images.arctic.splash" name="Arctic Splash" version="1.0.7" provider-name="jurialmunkey">
         <requires>
             <import addon="kodi.resource" version="1.0.0" />
         </requires>
         <extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
         <extension point="xbmc.addon.metadata">
-            <summary lang="en_GB">Seasonal layered splash artwork for Arctic</summary>
+            <summary lang="en_GB">Seasonal splash artwork for Arctic</summary>
             <description lang="en_GB">Mount Fuji and lake splash artwork with nine composited layers, four seasons, five weather patterns, and 24 hourly states. Includes high quality WebP artwork with lossless transparency and PNG overlays.</description>
             <platform>all</platform>
-            <size>103304181</size>
-            <path>resource.images.arctic.splash/resource.images.arctic.splash-1.0.0.zip</path>
+            <size>72337293</size>
+            <path>resource.images.arctic.splash/resource.images.arctic.splash-1.0.7.zip</path>
+        </extension>
+    </addon>
+    <addon id="resource.images.arctic.weather" name="Arctic Weather" version="1.0.4" provider-name="jurialmunkey">
+        <requires>
+            <import addon="kodi.resource" version="1.0.0" />
+        </requires>
+        <extension point="kodi.resource.images" compile="false" type="weather" />
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Japanese weather artwork for Arctic</summary>
+            <description lang="en_GB">Japanese weather cards at 320 x 720: original illustrations, simplified watercolours, minimal woodblock prints and a layered animated woodblock set. Static landscape woodblock artwork at 1280 x 720 is available for weather dialogs. Each set covers Kodi weather codes 0-47 and na. Animated artwork uses static plates and up to five single-frame PNGs per effect.</description>
+            <platform>all</platform>
+            <size>58989405</size>
+            <path>resource.images.arctic.weather/resource.images.arctic.weather-1.0.4.zip</path>
         </extension>
     </addon>
     <addon id="resource.images.mediaflags.signde" version="1.0.0" name="signde Media Flags" provider-name="signde">
@@ -312,7 +325,7 @@
             <path>script.module.bingie/script.module.bingie-1.0.1.zip</path>
         </extension>
     </addon>
-    <addon id="script.module.infotagger" name="InfoTagger" provider-name="jurialmunkey" version="0.0.9">
+    <addon id="script.module.infotagger" name="InfoTagger" provider-name="jurialmunkey" version="0.1.0">
         <requires>
             <import addon="xbmc.python" version="3.0.1" />
         </requires>
@@ -327,8 +340,8 @@
             <assets>
                 <icon>icon.png</icon>
             </assets>
-            <size>23148</size>
-            <path>script.module.infotagger/script.module.infotagger-0.0.9.zip</path>
+            <size>23169</size>
+            <path>script.module.infotagger/script.module.infotagger-0.1.0.zip</path>
         </extension>
     </addon>
     <addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.35">
@@ -658,14 +671,15 @@
             <path>skin.arctic.fuse.2/skin.arctic.fuse.2-108.2.12.12.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="72.3.4.1">
+    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="72.3.4.6">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinvariables" version="2.2.9" />
             <import addon="script.texturemaker" version="0.2.9" />
             <import addon="plugin.video.themoviedb.helper" version="6.17.9" />
             <import addon="resource.images.weathericons.white" version="0.0.1" />
-            <import addon="resource.images.arctic.splash" version="1.0.0" />
+            <import addon="resource.images.arctic.splash" version="1.0.6" />
+            <import addon="resource.images.arctic.weather" version="1.0.4" />
             <import addon="resource.images.studios.coloured" version="0.0.1" />
             <import addon="resource.font.robotocjksc" version="0.0.3" />
             <import addon="script.signde.tinyppi" version="10.2.7.3" />
@@ -697,6 +711,7 @@
             <forum />
             <source />
             <news>
+            [I][COLOR FFFF9800]v72.3.4.6-omega[/COLOR][/I][CR]- Updated to upstream v3.4.6.[CR][CR]
             [I][COLOR FFFF9800]v72.3.4.1-omega[/COLOR][/I][CR]- Updated to upstream v3.4.1.[CR][CR]
             [I][COLOR FFFF9800]v72.3.3.12-omega[/COLOR][/I][CR]- Updated to upstream v3.3.12.[CR][CR]
             [I][COLOR FFFF9800]v72.3.3.9-omega[/COLOR][/I][CR]- Updated to upstream v3.3.9.[CR][CR]
@@ -738,8 +753,8 @@
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
             </assets>
-            <size>55747065</size>
-            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-72.3.4.1.zip</path>
+            <size>55197056</size>
+            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-72.3.4.6.zip</path>
         </extension>
     </addon>
     <addon id="skin.arctic.horizon.2" name="Arctic Horizon 2 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="64.0.8.30">

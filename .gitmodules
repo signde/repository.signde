@@ -96,3 +96,6 @@
 [submodule "addons/resource.images.arctic.splash"]
 	path = addons/resource.images.arctic.splash
 	url = https://github.com/jurialmunkey/resource.images.arctic.splash.git
+[submodule "addons/resource.images.arctic.weather"]
+	path = addons/resource.images.arctic.weather
+	url = https://github.com/jurialmunkey/resource.images.arctic.weather.git
