@@ -1,4 +1,4 @@
-<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (signde)" provider-name="jurialmunkey, signde" version="73.3.4.6">
+<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (signde)" provider-name="jurialmunkey, signde" version="73.3.4.8">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.2.9" />
@@ -37,6 +37,7 @@
         <forum />
         <source />
         <news>
+            [I][COLOR FFFF9800]v73.3.4.8-piers[/COLOR][/I][CR]- Updated to upstream v3.4.8.[CR][CR]
             [I][COLOR FFFF9800]v73.3.4.6-piers[/COLOR][/I][CR]- Updated to upstream v3.4.6.[CR][CR]
             [I][COLOR FFFF9800]v73.3.4.1-piers[/COLOR][/I][CR]- Updated to upstream v3.4.1.[CR]- Improved recovery after updating the active skin.[CR][CR]
             [I][COLOR FFFF9800]v73.3.3.12-piers[/COLOR][/I][CR]- Updated to upstream v3.3.12.[CR][CR]
