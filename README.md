@@ -19,6 +19,14 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 
 ## Changes
 
+- October 24th 2026
+    - Arctic Fuse 3 v72.3.4.9-omega
+        - Updated to upstream v3.4.9
+    - Arctic Fuse 3 v73.3.4.9-piers
+        - Updated to upstream v3.4.9
+    - Arctic Splash v1.1.0
+        - Updated to upstream v1.1.0
+
 - October 23rd 2026
     - Arctic Fuse 3 v72.3.4.8-omega
         - Updated to upstream v3.4.8
