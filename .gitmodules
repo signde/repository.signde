@@ -99,3 +99,18 @@
 [submodule "addons/resource.images.arctic.weather"]
 	path = addons/resource.images.arctic.weather
 	url = https://github.com/jurialmunkey/resource.images.arctic.weather.git
+[submodule "addons/script.module.tmdbhelper.sync.trakt"]
+	path = addons/script.module.tmdbhelper.sync.trakt
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.trakt.git
+[submodule "addons/script.module.tmdbhelper.sync.mdblist"]
+	path = addons/script.module.tmdbhelper.sync.mdblist
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.mdblist.git
+[submodule "addons/script.module.tmdbhelper.sync.tvdb"]
+	path = addons/script.module.tmdbhelper.sync.tvdb
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.tvdb.git
+[submodule "addons/script.module.tmdbhelper.sync.gemini"]
+	path = addons/script.module.tmdbhelper.sync.gemini
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.gemini.git
+[submodule "addons/script.module.tmdbhelper.sync.kodi"]
+	path = addons/script.module.tmdbhelper.sync.kodi
+	url = https://github.com/jurialmunkey/script.module.tmdbhelper.sync.kodi.git

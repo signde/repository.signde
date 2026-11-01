@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.3" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
+<addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.5" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
     <requires>
         <import addon="xbmc.gui" version="5.17.0"/>
         <import addon="script.skinvariables" version="2.1.33" />
@@ -14,12 +14,12 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <license>Creative Commons Attribution Non-Commercial Share-Alike 3.0</license>
+        <license>CC-BY-NC-SA-3.0</license>
         <forum>https://forum.kodi.tv/showthread.php?tid=382650</forum>
         <source>https://github.com/signde/skin.arctic.zephyr.martian</source>
         <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
             <screenshot>resources/screenshot-01.jpg</screenshot>
             <screenshot>resources/screenshot-02.jpg</screenshot>
             <screenshot>resources/screenshot-03.jpg</screenshot>
@@ -32,6 +32,37 @@
             <screenshot>resources/screenshot-10.jpg</screenshot>
         </assets>
         <news>
+[B]v11.3.20.5[/B]
+- Updated to upstream Martian v3.20.5
+
+[B]3.20.5[/B]
+- Fixed width of monochrome video resolution flag
+[B]3.20.4[/B]
+- Updated video lyrics
+- video lyrics can now be toggled without exiting the player
+- Added skin integration of Skin Info image viewer
+- Added inherited TV show fanart indicator to Skin Info manage artwork dialog
+- Added Skin Info Next Up (Favorites) widget
+- Prevent switching to fullscreen when playing tracks from music info dialog
+- Hide TMDbHelper widgets in picker dialog if TMDbHelper is disabled
+- Fixed use of invalid TMDbHelper data in PVR radio views
+- Fixed local collections in video info dialog
+- Fixed and simplified logic for fallback images
+- Fixed initial focus of PVR search dialog
+- Fixed position of submenu popup for non netflix vertical multi widgets
+- Fixed slide animation of vertical submenus
+- Fixed visibility of widget navigation arrows
+- Fixed album count in multiwidgets header label
+- Fixed layout of PVR icon and card view mode
+- Fixed height of PVR side OSD plot box
+- Fixed aspect ratio of video OSD poster
+- Fixed position of video OSD submenus
+- Fixed video OSD disc animation
+- Fixed layout of video side OSD for PVR
+- Fixed slide animation of video side OSD
+- Fixed video side OSD player status info (removed fade labels)
+- Fixed temperature clock font
+
 [B]11.3.20.3[/B]
 - Updated to upstream Martian v3.20.3
 
@@ -49,7 +80,7 @@
 - Fixed fallback to default image in music visualisation
 - Fixed accidental display of unwatched indicators on cast list
 - Fixed scrollbars in square list and wall views
-- Fixed fullscreen info in music info dialog 
+- Fixed fullscreen info in music info dialog
 - Fixed duplicate display of duration in music info dialog
 - Fixed slide condition for hidden lists in video info dialog
 - Fixed display of star with numeric ratings for ratings less than 2

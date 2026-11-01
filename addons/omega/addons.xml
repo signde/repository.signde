@@ -27,7 +27,7 @@
             <path>plugin.program.autocompletion/plugin.program.autocompletion-2.1.3.zip</path>
         </extension>
     </addon>
-    <addon id="plugin.video.themoviedb.helper" version="6.18.1" name="TMDb Helper" provider-name="jurialmunkey">
+    <addon id="plugin.video.themoviedb.helper" version="6.20.2" name="TMDb Helper" provider-name="jurialmunkey">
         <requires>
             <import addon="xbmc.python" version="3.0.1" />
             <import addon="script.module.requests" version="2.9.1" />
@@ -71,8 +71,8 @@
                 <screenshot>resources/screenshot-01.jpg</screenshot>
                 <screenshot>resources/screenshot-02.jpg</screenshot>
             </assets>
-            <size>4309085</size>
-            <path>plugin.video.themoviedb.helper/plugin.video.themoviedb.helper-6.18.1.zip</path>
+            <size>10841164</size>
+            <path>plugin.video.themoviedb.helper/plugin.video.themoviedb.helper-6.20.2.zip</path>
         </extension>
     </addon>
     <addon id="plugin.video.tmdb.bingie.helper" version="2.1.0.3" name="TMDb Bingie Helper" provider-name="jurialmunkey,matke">
@@ -361,6 +361,111 @@
             </assets>
             <size>55792</size>
             <path>script.module.jurialmunkey/script.module.jurialmunkey-0.2.35.zip</path>
+        </extension>
+    </addon>
+    <addon id="script.module.tmdbhelper.sync.gemini" version="1.0.2" name="TMDbHelper - Gemini" provider-name="jurialmunkey">
+        <requires>
+            <import addon="xbmc.python" version="3.0.1" />
+            <import addon="script.module.jurialmunkey" version="0.2.35" />
+            <import addon="plugin.video.themoviedb.helper" version="6.20.2" />
+        </requires>
+        <extension point="xbmc.python.script" library="resources/script.py" />
+        <extension point="xbmc.python.module" library="resources/lib" />
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Gemini movie and TV recommendations for TMDbHelper</summary>
+            <description lang="en_GB">Gemini movie and TV recommendations, API access and settings for TMDbHelper.</description>
+            <platform>all</platform>
+            <license>GPL-3.0-or-later</license>
+            <assets>
+                <icon>resources/icon.png</icon>
+                <fanart>resources/fanart.jpg</fanart>
+            </assets>
+            <size>92046</size>
+            <path>script.module.tmdbhelper.sync.gemini/script.module.tmdbhelper.sync.gemini-1.0.2.zip</path>
+        </extension>
+    </addon>
+    <addon id="script.module.tmdbhelper.sync.kodi" version="1.1.4" name="TMDbHelper Sync - Kodi" provider-name="jurialmunkey">
+        <requires>
+            <import addon="xbmc.python" version="3.0.1" />
+            <import addon="script.module.jurialmunkey" version="0.2.35" />
+            <import addon="plugin.video.themoviedb.helper" version="6.20.2" />
+        </requires>
+        <extension point="xbmc.python.script" library="resources/script.py" />
+        <extension point="xbmc.python.module" library="resources/lib" />
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Kodi library sync provider for TMDbHelper</summary>
+            <description lang="en_GB">Collection, history, playback progress, watched actions and scrobbling using the local Kodi video library, with separate local history/progress for non-library items and a local watchlist.</description>
+            <platform>all</platform>
+            <license>GPL-3.0-or-later</license>
+            <assets>
+                <icon>resources/icon.png</icon>
+                <fanart>resources/fanart.jpg</fanart>
+            </assets>
+            <size>90565</size>
+            <path>script.module.tmdbhelper.sync.kodi/script.module.tmdbhelper.sync.kodi-1.1.4.zip</path>
+        </extension>
+    </addon>
+    <addon id="script.module.tmdbhelper.sync.mdblist" version="1.1.3" name="TMDbHelper Sync - MDbList" provider-name="jurialmunkey">
+        <requires>
+            <import addon="xbmc.python" version="3.0.1" />
+            <import addon="script.module.jurialmunkey" version="0.2.35" />
+            <import addon="plugin.video.themoviedb.helper" version="6.20.2" />
+        </requires>
+        <extension point="xbmc.python.script" library="resources/script.py" />
+        <extension point="xbmc.python.module" library="resources/lib" />
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">MDbList sync provider for TMDbHelper</summary>
+            <description lang="en_GB">MDbList API access, account settings, data sync, static-list actions, scrobbling, list directories, ratings and monitored lists for TMDbHelper.</description>
+            <platform>all</platform>
+            <license>GPL-3.0-or-later</license>
+            <assets>
+                <icon>resources/icon.png</icon>
+                <fanart>resources/fanart.jpg</fanart>
+            </assets>
+            <size>452302</size>
+            <path>script.module.tmdbhelper.sync.mdblist/script.module.tmdbhelper.sync.mdblist-1.1.3.zip</path>
+        </extension>
+    </addon>
+    <addon id="script.module.tmdbhelper.sync.trakt" version="1.2.2" name="TMDbHelper Sync - Trakt" provider-name="jurialmunkey">
+        <requires>
+            <import addon="xbmc.python" version="3.0.1" />
+            <import addon="script.module.jurialmunkey" version="0.2.35" />
+            <import addon="plugin.video.themoviedb.helper" version="6.20.2" />
+        </requires>
+        <extension point="xbmc.python.script" library="resources/script.py" />
+        <extension point="xbmc.python.module" library="resources/lib" />
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Trakt sync provider for TMDbHelper</summary>
+            <description lang="en_GB">Trakt directories, discovery, ratings, favorites, monitored lists, data sync and scrobbling for TMDbHelper.</description>
+            <platform>all</platform>
+            <license>GPL-3.0-or-later</license>
+            <assets>
+                <icon>resources/icon.png</icon>
+                <fanart>resources/fanart.jpg</fanart>
+            </assets>
+            <size>1333345</size>
+            <path>script.module.tmdbhelper.sync.trakt/script.module.tmdbhelper.sync.trakt-1.2.2.zip</path>
+        </extension>
+    </addon>
+    <addon id="script.module.tmdbhelper.sync.tvdb" version="1.0.2" name="TMDbHelper - TVDb" provider-name="jurialmunkey">
+        <requires>
+            <import addon="xbmc.python" version="3.0.1" />
+            <import addon="script.module.jurialmunkey" version="0.2.35" />
+            <import addon="plugin.video.themoviedb.helper" version="6.20.2" />
+        </requires>
+        <extension point="xbmc.python.script" library="resources/script.py" />
+        <extension point="xbmc.python.module" library="resources/lib" />
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">TVDb awards and genre browsing for TMDbHelper</summary>
+            <description lang="en_GB">TVDb awards and genre browsing, API access and settings for TMDbHelper.</description>
+            <platform>all</platform>
+            <license>GPL-3.0-or-later</license>
+            <assets>
+                <icon>resources/icon.png</icon>
+                <fanart>resources/fanart.jpg</fanart>
+            </assets>
+            <size>99384</size>
+            <path>script.module.tmdbhelper.sync.tvdb/script.module.tmdbhelper.sync.tvdb-1.0.2.zip</path>
         </extension>
     </addon>
     <addon id="script.signde.tinyppi" name="signde PPI (avdvplus / p3i)" version="17.2.7.5" provider-name="jamal2362, signde">
@@ -671,12 +776,12 @@
             <path>skin.arctic.fuse.2/skin.arctic.fuse.2-108.2.12.12.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="72.3.4.9">
+    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="72.3.4.15">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinvariables" version="2.2.9" />
             <import addon="script.texturemaker" version="0.2.9" />
-            <import addon="plugin.video.themoviedb.helper" version="6.17.9" />
+            <import addon="plugin.video.themoviedb.helper" version="6.19.2" />
             <import addon="resource.images.weathericons.white" version="0.0.1" />
             <import addon="resource.images.arctic.splash" version="1.1.0" />
             <import addon="resource.images.arctic.weather" version="1.0.4" />
@@ -711,6 +816,7 @@
             <forum />
             <source />
             <news>
+            [I][COLOR FFFF9800]v72.3.4.15-omega[/COLOR][/I][CR]- Updated to upstream v3.4.15.[CR][CR]
             [I][COLOR FFFF9800]v72.3.4.9-omega[/COLOR][/I][CR]- Updated to upstream v3.4.9.[CR][CR]
             [I][COLOR FFFF9800]v72.3.4.8-omega[/COLOR][/I][CR]- Updated to upstream v3.4.8.[CR][CR]
             [I][COLOR FFFF9800]v72.3.4.6-omega[/COLOR][/I][CR]- Updated to upstream v3.4.6.[CR][CR]
@@ -755,8 +861,8 @@
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
             </assets>
-            <size>57168203</size>
-            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-72.3.4.9.zip</path>
+            <size>57311034</size>
+            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-72.3.4.15.zip</path>
         </extension>
     </addon>
     <addon id="skin.arctic.horizon.2" name="Arctic Horizon 2 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="64.0.8.30">
@@ -870,7 +976,7 @@
             <path>skin.arctic.zephyr.2.resurrection.mod/skin.arctic.zephyr.2.resurrection.mod-68.1.0.54.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.3" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
+    <addon id="skin.arctic.zephyr.martian.signde" version="11.3.20.5" name="Arctic: Zephyr - Martian (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, martian89, jamal2362, signde">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
             <import addon="script.skinvariables" version="2.1.33" />
@@ -885,12 +991,12 @@
         </extension>
         <extension point="xbmc.addon.metadata">
             <platform>all</platform>
-            <license>Creative Commons Attribution Non-Commercial Share-Alike 3.0</license>
+            <license>CC-BY-NC-SA-3.0</license>
             <forum>https://forum.kodi.tv/showthread.php?tid=382650</forum>
             <source>https://github.com/signde/skin.arctic.zephyr.martian</source>
             <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>
+                <icon>resources/icon.png</icon>
+                <fanart>resources/fanart.jpg</fanart>
                 <screenshot>resources/screenshot-01.jpg</screenshot>
                 <screenshot>resources/screenshot-02.jpg</screenshot>
                 <screenshot>resources/screenshot-03.jpg</screenshot>
@@ -903,6 +1009,37 @@
                 <screenshot>resources/screenshot-10.jpg</screenshot>
             </assets>
             <news>
+[B]v11.3.20.5[/B]
+- Updated to upstream Martian v3.20.5
+
+[B]3.20.5[/B]
+- Fixed width of monochrome video resolution flag
+[B]3.20.4[/B]
+- Updated video lyrics
+- video lyrics can now be toggled without exiting the player
+- Added skin integration of Skin Info image viewer
+- Added inherited TV show fanart indicator to Skin Info manage artwork dialog
+- Added Skin Info Next Up (Favorites) widget
+- Prevent switching to fullscreen when playing tracks from music info dialog
+- Hide TMDbHelper widgets in picker dialog if TMDbHelper is disabled
+- Fixed use of invalid TMDbHelper data in PVR radio views
+- Fixed local collections in video info dialog
+- Fixed and simplified logic for fallback images
+- Fixed initial focus of PVR search dialog
+- Fixed position of submenu popup for non netflix vertical multi widgets
+- Fixed slide animation of vertical submenus
+- Fixed visibility of widget navigation arrows
+- Fixed album count in multiwidgets header label
+- Fixed layout of PVR icon and card view mode
+- Fixed height of PVR side OSD plot box
+- Fixed aspect ratio of video OSD poster
+- Fixed position of video OSD submenus
+- Fixed video OSD disc animation
+- Fixed layout of video side OSD for PVR
+- Fixed slide animation of video side OSD
+- Fixed video side OSD player status info (removed fade labels)
+- Fixed temperature clock font
+
 [B]11.3.20.3[/B]
 - Updated to upstream Martian v3.20.3
 
@@ -920,7 +1057,7 @@
 - Fixed fallback to default image in music visualisation
 - Fixed accidental display of unwatched indicators on cast list
 - Fixed scrollbars in square list and wall views
-- Fixed fullscreen info in music info dialog 
+- Fixed fullscreen info in music info dialog
 - Fixed duplicate display of duration in music info dialog
 - Fixed slide condition for hidden lists in video info dialog
 - Fixed display of star with numeric ratings for ratings less than 2
@@ -1169,8 +1306,8 @@
             <description lang="en_US">Arctic: Zephyr - Martian is based on the original Arctic: Zephyr skin, created by jurialmunkey and it's extension by beatmasterRS. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
             <description lang="fr">Arctic: Zephyr - Martian est basé sur le skin original Arctic: Zephyr, créé par jurialmunkey et son extension par beatmasterRS. Arctic se focalise sur le fait d'être simple, claire et minimaliste.</description>
             <description lang="zh_CN">Arctic: Zephyr - Martian 是基于 jurialmunkey 所创 Arctic 皮肤的第三个版本，以及 beatmasterRS 对该皮肤的扩展版本。Arctic 系列皮肤主打简洁、干净且简约的风格，并略带独特设计巧思。</description>
-            <size>51631560</size>
-            <path>skin.arctic.zephyr.martian.signde/skin.arctic.zephyr.martian.signde-11.3.20.3.zip</path>
+            <size>51548341</size>
+            <path>skin.arctic.zephyr.martian.signde/skin.arctic.zephyr.martian.signde-11.3.20.5.zip</path>
         </extension>
     </addon>
     <addon id="skin.arctic.zephyr.mod" version="66.3.0.3" name="Arctic: Zephyr - Reloaded (avdvplus/p3i)" provider-name="jurialmunkey, beatmasterrs, jamal2362">
