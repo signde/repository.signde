@@ -19,6 +19,10 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 
 ## Changes
 
+- November 2nd 2026
+    - Arctic Fuse 3 v73.3.4.15-omega
+        - Fixed missing boxes around infoline details
+
 - November 1st 2026
     - Arctic Fuse 3 v72.3.4.15-omega
         - Updated to upstream v3.4.15
