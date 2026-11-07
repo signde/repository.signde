@@ -1,7 +1,7 @@
-<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="73.3.4.15">
+<addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (avdvplus/p3i)" provider-name="jurialmunkey, jamal2362, signde" version="73.3.4.18">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
-        <import addon="script.skinvariables" version="2.2.9" />
+        <import addon="script.skinvariables" version="2.2.13" />
         <import addon="script.texturemaker" version="0.2.9" />
         <import addon="plugin.video.themoviedb.helper" version="6.19.2" />
         <import addon="resource.images.weathericons.white" version="0.0.1" />
@@ -38,6 +38,7 @@
         <forum />
         <source />
         <news>
+            [I][COLOR FFFF9800]v73.3.4.18-omega[/COLOR][/I][CR]- Updated to upstream v3.4.18.[CR][CR]
             [I][COLOR FFFF9800]v73.3.4.15-omega[/COLOR][/I][CR]- Fixed missing boxes around infoline details.[CR][CR]
             [I][COLOR FFFF9800]v72.3.4.15-omega[/COLOR][/I][CR]- Updated to upstream v3.4.15.[CR][CR]
             [I][COLOR FFFF9800]v72.3.4.9-omega[/COLOR][/I][CR]- Updated to upstream v3.4.9.[CR][CR]

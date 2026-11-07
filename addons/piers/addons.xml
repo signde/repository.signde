@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <addons>
-    <addon id="plugin.video.themoviedb.helper" version="6.20.2" name="TMDb Helper" provider-name="jurialmunkey">
+    <addon id="plugin.video.themoviedb.helper" version="6.21.0" name="TMDb Helper" provider-name="jurialmunkey">
         <requires>
             <import addon="xbmc.python" version="3.0.1" />
             <import addon="script.module.requests" version="2.9.1" />
@@ -44,8 +44,8 @@
                 <screenshot>resources/screenshot-01.jpg</screenshot>
                 <screenshot>resources/screenshot-02.jpg</screenshot>
             </assets>
-            <size>10841164</size>
-            <path>plugin.video.themoviedb.helper/plugin.video.themoviedb.helper-6.20.2.zip</path>
+            <size>9613291</size>
+            <path>plugin.video.themoviedb.helper/plugin.video.themoviedb.helper-6.21.0.zip</path>
         </extension>
     </addon>
     <addon id="repository.signde" name="signde repository" version="1.3" provider-name="signde">
@@ -202,7 +202,7 @@
             <path>script.module.jurialmunkey/script.module.jurialmunkey-0.2.35.zip</path>
         </extension>
     </addon>
-    <addon id="script.module.tmdbhelper.sync.gemini" version="1.0.2" name="TMDbHelper - Gemini" provider-name="jurialmunkey">
+    <addon id="script.module.tmdbhelper.sync.gemini" version="1.0.3" name="TMDbHelper - Gemini" provider-name="jurialmunkey">
         <requires>
             <import addon="xbmc.python" version="3.0.1" />
             <import addon="script.module.jurialmunkey" version="0.2.35" />
@@ -219,11 +219,11 @@
                 <icon>resources/icon.png</icon>
                 <fanart>resources/fanart.jpg</fanart>
             </assets>
-            <size>92046</size>
-            <path>script.module.tmdbhelper.sync.gemini/script.module.tmdbhelper.sync.gemini-1.0.2.zip</path>
+            <size>104401</size>
+            <path>script.module.tmdbhelper.sync.gemini/script.module.tmdbhelper.sync.gemini-1.0.3.zip</path>
         </extension>
     </addon>
-    <addon id="script.module.tmdbhelper.sync.kodi" version="1.1.4" name="TMDbHelper Sync - Kodi" provider-name="jurialmunkey">
+    <addon id="script.module.tmdbhelper.sync.kodi" version="1.1.5" name="TMDbHelper Sync - Kodi" provider-name="jurialmunkey">
         <requires>
             <import addon="xbmc.python" version="3.0.1" />
             <import addon="script.module.jurialmunkey" version="0.2.35" />
@@ -240,11 +240,11 @@
                 <icon>resources/icon.png</icon>
                 <fanart>resources/fanart.jpg</fanart>
             </assets>
-            <size>90565</size>
-            <path>script.module.tmdbhelper.sync.kodi/script.module.tmdbhelper.sync.kodi-1.1.4.zip</path>
+            <size>96105</size>
+            <path>script.module.tmdbhelper.sync.kodi/script.module.tmdbhelper.sync.kodi-1.1.5.zip</path>
         </extension>
     </addon>
-    <addon id="script.module.tmdbhelper.sync.mdblist" version="1.1.3" name="TMDbHelper Sync - MDbList" provider-name="jurialmunkey">
+    <addon id="script.module.tmdbhelper.sync.mdblist" version="1.1.4" name="TMDbHelper Sync - MDbList" provider-name="jurialmunkey">
         <requires>
             <import addon="xbmc.python" version="3.0.1" />
             <import addon="script.module.jurialmunkey" version="0.2.35" />
@@ -261,15 +261,15 @@
                 <icon>resources/icon.png</icon>
                 <fanart>resources/fanart.jpg</fanart>
             </assets>
-            <size>452302</size>
-            <path>script.module.tmdbhelper.sync.mdblist/script.module.tmdbhelper.sync.mdblist-1.1.3.zip</path>
+            <size>478088</size>
+            <path>script.module.tmdbhelper.sync.mdblist/script.module.tmdbhelper.sync.mdblist-1.1.4.zip</path>
         </extension>
     </addon>
-    <addon id="script.module.tmdbhelper.sync.trakt" version="1.2.2" name="TMDbHelper Sync - Trakt" provider-name="jurialmunkey">
+    <addon id="script.module.tmdbhelper.sync.trakt" version="1.2.8" name="TMDbHelper Sync - Trakt" provider-name="jurialmunkey">
         <requires>
             <import addon="xbmc.python" version="3.0.1" />
             <import addon="script.module.jurialmunkey" version="0.2.35" />
-            <import addon="plugin.video.themoviedb.helper" version="6.20.2" />
+            <import addon="plugin.video.themoviedb.helper" version="6.20.5" />
         </requires>
         <extension point="xbmc.python.script" library="resources/script.py" />
         <extension point="xbmc.python.module" library="resources/lib" />
@@ -282,11 +282,11 @@
                 <icon>resources/icon.png</icon>
                 <fanart>resources/fanart.jpg</fanart>
             </assets>
-            <size>1333345</size>
-            <path>script.module.tmdbhelper.sync.trakt/script.module.tmdbhelper.sync.trakt-1.2.2.zip</path>
+            <size>1368745</size>
+            <path>script.module.tmdbhelper.sync.trakt/script.module.tmdbhelper.sync.trakt-1.2.8.zip</path>
         </extension>
     </addon>
-    <addon id="script.module.tmdbhelper.sync.tvdb" version="1.0.2" name="TMDbHelper - TVDb" provider-name="jurialmunkey">
+    <addon id="script.module.tmdbhelper.sync.tvdb" version="1.0.3" name="TMDbHelper - TVDb" provider-name="jurialmunkey">
         <requires>
             <import addon="xbmc.python" version="3.0.1" />
             <import addon="script.module.jurialmunkey" version="0.2.35" />
@@ -303,11 +303,11 @@
                 <icon>resources/icon.png</icon>
                 <fanart>resources/fanart.jpg</fanart>
             </assets>
-            <size>99384</size>
-            <path>script.module.tmdbhelper.sync.tvdb/script.module.tmdbhelper.sync.tvdb-1.0.2.zip</path>
+            <size>115230</size>
+            <path>script.module.tmdbhelper.sync.tvdb/script.module.tmdbhelper.sync.tvdb-1.0.3.zip</path>
         </extension>
     </addon>
-    <addon id="script.skinvariables" version="2.2.9" name="Skin Variables" provider-name="jurialmunkey">
+    <addon id="script.skinvariables" version="2.2.14" name="Skin Variables" provider-name="jurialmunkey">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.jurialmunkey" version="0.2.28" />
@@ -335,8 +335,8 @@
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
             </assets>
-            <size>236732</size>
-            <path>script.skinvariables/script.skinvariables-2.2.9.zip</path>
+            <size>291180</size>
+            <path>script.skinvariables/script.skinvariables-2.2.14.zip</path>
         </extension>
     </addon>
     <addon id="script.texturemaker" version="0.2.11" name="Texture Maker" provider-name="jurialmunkey">
@@ -362,10 +362,10 @@
             <path>script.texturemaker/script.texturemaker-0.2.11.zip</path>
         </extension>
     </addon>
-    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (signde)" provider-name="jurialmunkey, signde" version="73.3.4.15">
+    <addon id="skin.arctic.fuse.3" name="Arctic Fuse 3 (signde)" provider-name="jurialmunkey, signde" version="73.3.4.18">
         <requires>
             <import addon="xbmc.gui" version="5.17.0" />
-            <import addon="script.skinvariables" version="2.2.9" />
+            <import addon="script.skinvariables" version="2.2.13" />
             <import addon="script.texturemaker" version="0.2.9" />
             <import addon="plugin.video.themoviedb.helper" version="6.19.2" />
             <import addon="resource.images.weathericons.white" version="0.0.1" />
@@ -401,6 +401,7 @@
             <forum />
             <source />
             <news>
+            [I][COLOR FFFF9800]v73.3.4.18-piers[/COLOR][/I][CR]- Updated to upstream v3.4.18.[CR][CR]
             [I][COLOR FFFF9800]v73.3.4.15-piers[/COLOR][/I][CR]- Updated to upstream v3.4.15.[CR]- Improved Dolby Vision MEL/FEL icons in library views.[CR][CR]
             [I][COLOR FFFF9800]v73.3.4.9-piers[/COLOR][/I][CR]- Updated to upstream v3.4.9.[CR][CR]
             [I][COLOR FFFF9800]v73.3.4.8-piers[/COLOR][/I][CR]- Updated to upstream v3.4.8.[CR][CR]
@@ -412,8 +413,8 @@
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
             </assets>
-            <size>59972850</size>
-            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-73.3.4.15.zip</path>
+            <size>60065436</size>
+            <path>skin.arctic.fuse.3/skin.arctic.fuse.3-73.3.4.18.zip</path>
         </extension>
     </addon>
 </addons>

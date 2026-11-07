@@ -19,6 +19,19 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 
 ## Changes
 
+- November 7th 2026
+    - Arctic Fuse 3 v73.3.4.18-omega
+        - Updated to upstream v3.4.18
+    - Arctic Fuse 3 v73.3.4.18-piers
+        - Updated to upstream v3.4.18
+    - Arctic Zephyr Martian v11.3.20.7
+        - Updated to upstream Martian v3.20.7
+    - TMDb Helper v6.21.0
+        - Updated to upstream v6.21.0
+        - Updated the Trakt, MDBList, TVDb, Gemini, and Kodi providers
+    - Skin Variables v2.2.14
+        - Updated to upstream v2.2.14
+
 - November 2nd 2026
     - Arctic Fuse 3 v73.3.4.15-omega
         - Fixed missing boxes around infoline details
