@@ -19,6 +19,10 @@ See the [Kodi forum thread](https://forum.kodi.tv/showthread.php?tid=388348) for
 
 ## Changes
 
+- November 10th 2026
+    - Arctic Zephyr 2 Resurrection v69.1.0.54
+        - Fixed missing PPI and VS10 button icons during playback
+
 - November 7th 2026
     - Arctic Fuse 3 v73.3.4.18-omega
         - Updated to upstream v3.4.18
